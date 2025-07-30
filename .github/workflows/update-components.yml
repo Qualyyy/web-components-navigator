@@ -12,12 +12,16 @@ on:
 jobs:
   update-components:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allows pushing code changes
+      pages: write # Allows deploying to GitHub Pages
+      id-token: write # Required by peaceiris/actions-gh-pages
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
