@@ -86,19 +86,19 @@ async function buildComponentIndex() {
         groupedComponents[repoKey][component.category].push(component);
     });
 
-    // Make sure public directory exists
-    if (!fs.existsSync('public')) {
-        fs.mkdirSync('public');
+    // Make sure docs directory exists
+    if (!fs.existsSync('docs')) {
+        fs.mkdirSync('docs');
     }
 
     // Save the component list
     fs.writeFileSync(
-        'public/components.json',
+        'docs/components.json',
         JSON.stringify(groupedComponents, null, 2)
     );
 
     console.log(`✅ Discovery complete! Found ${allComponents.length} total components`);
-    console.log(`📄 Component list saved to public/components.json`);
+    console.log(`📄 Component list saved to docs/components.json`);
 
     // Show summary
     Object.entries(groupedComponents).forEach(([repoKey, categories]) => {
