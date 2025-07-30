@@ -1,0 +1,12 @@
+{
+    "name": "component-preview-website",
+    "version": "1.0.0",
+    "description": "Automatic component preview website",
+    "scripts": {
+        "build-components": "node scripts/build-components.js",
+        "build": "npm run build-components"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.2"
+    }
+}
