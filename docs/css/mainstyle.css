@@ -223,6 +223,10 @@ main {
     background: var(--primary);
 }
 
+.repo-title {
+    text-wrap: balance;
+}
+
 .repo-title span {
     color: var(--secondary);
 }
