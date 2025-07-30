@@ -12,3 +12,7 @@ Thumbs.db
 # Environment variables
 .env
 .env.*
+
+# Generated files
+/public/components.json
+/data/component-hashes.json
