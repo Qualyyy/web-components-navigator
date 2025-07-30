@@ -35,7 +35,7 @@ jobs:
       - name: Check for changes
         id: verify-changed-files
         run: |
-          if git diff --quiet public/components.json; then
+          if git diff --quiet docs/components.json; then
             echo "No changes detected"
             echo "changed=false" >> $GITHUB_OUTPUT
           else
@@ -48,7 +48,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add public/components.json
+          git add docs/components.json
           git commit -m "🤖 Auto-update: New components detected"
           git push
 
@@ -57,4 +57,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./docs
