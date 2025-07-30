@@ -14,5 +14,5 @@ Thumbs.db
 .env.*
 
 # Generated files
-/public/components.json
+/docs/components.json
 /data/component-hashes.json
