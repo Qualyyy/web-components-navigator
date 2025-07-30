@@ -785,20 +785,6 @@
       }
     ]
   },
-  "frontend-joe/react-components": {
-    "index.html": [
-      {
-        "owner": "frontend-joe",
-        "repo": "react-components",
-        "branch": "main",
-        "path": "index.html",
-        "name": "index.html",
-        "category": "index.html",
-        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/react-components/main/index.html",
-        "sourceUrl": "https://github.com/frontend-joe/react-components/tree/main/index.html"
-      }
-    ]
-  },
   "rubenshibu/css-components": {
     "index.html": [
       {
