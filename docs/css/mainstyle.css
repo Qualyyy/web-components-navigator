@@ -73,7 +73,9 @@ h4 {
 }
 
 p,
-a {
+a,
+input,
+label {
     font: var(--p);
 }
 
@@ -108,7 +110,10 @@ a {
 
 body {
     min-height: 100dvh;
+    max-height: 100dvh;
     background: var(--bg-dark);
+    display: grid;
+    grid-template-rows: auto 1fr;
 }
 
 header {
@@ -168,18 +173,45 @@ header {
 
 
 main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.filters-sidebar,
+#folders {
     padding: 1rem;
+}
+
+.filters-sidebar {
+    height: fit-content;
+    position: sticky;
+    top: 0;
+}
+
+.filter-section ul {
+    list-style: none;
+    padding-left: .5rem;
+}
+
+.filter-section input {
+    height: 1em;
+    width: 1em;
+}
+
+.filter-section label {
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 70%;
-    margin: 0px auto;
+    gap: .2rem;
+    align-items: center;
 }
 
 #folders {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .repo-container {
