@@ -786,16 +786,16 @@
     ]
   },
   "rubenshibu/css-components": {
-    "index.html": [
+    "root": [
       {
         "owner": "rubenshibu",
         "repo": "css-components",
         "branch": "master",
-        "path": "index.html",
-        "name": "index.html",
-        "category": "index.html",
+        "path": "",
+        "name": "components",
+        "category": "root",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/rubenshibu/css-components/master/index.html",
-        "sourceUrl": "https://github.com/rubenshibu/css-components/tree/master/index.html"
+        "sourceUrl": "https://github.com/rubenshibu/css-components/tree/master/"
       }
     ]
   }
