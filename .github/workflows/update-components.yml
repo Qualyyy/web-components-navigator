@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - "data/repos.json" # Also run when repos.json changes
+      - "scripts/build-components.js" # Also run when build-components.js changes
 
 jobs:
   update-components:
