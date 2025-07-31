@@ -40,13 +40,13 @@ async function buildComponentIndex() {
             // Process each index.html file
             indexFiles.forEach(file => {
                 // Remove '/index.html' from the path to get component path
-                const componentPath = file.path.replace('/index.html', '');
+                const componentPath = file.path.replace('index.html', '').slice(0, -1);
 
                 // Get component name (last part of path)
-                const componentName = componentPath.split('/').pop() || 'root';
+                const componentName = componentPath.split('/').pop() || 'components';
 
                 // Get category name (first part of path)
-                const categoryName = componentPath.split('/')[0] || 'uncategorized';
+                const categoryName = componentPath.split('/')[0] || 'root';
 
                 allComponents.push({
                     owner,
