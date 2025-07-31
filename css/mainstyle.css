@@ -118,6 +118,25 @@ header {
     align-items: center;
 }
 
+.website-title {
+    display: flex;
+    flex-direction: row;
+    gap: .2rem;
+    align-items: center;
+}
+
+.favicon {
+    font: var(--h1);
+    background: var(--text);
+    height: 1em;
+    width: 1em;
+    mask-image: url(../images/favicon.webp);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+
+}
+
 #theme-toggle {
     background: none;
     border: none;
@@ -195,13 +214,17 @@ main {
     height: 1em;
     width: 1em;
     mask-image: url(../images/github-logo.webp);
-    -webkit-mask-image: url(../images/github-logo.webp);
-    mask-size: cover;
-    -webkit-mask-size: cover;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
 }
 
 .repo-link:hover {
     background: var(--primary);
+}
+
+.repo-title {
+    text-wrap: balance;
 }
 
 .repo-title span {
