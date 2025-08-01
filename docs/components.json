@@ -500,6 +500,16 @@
         "category": "controls",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/controls/control-1/index.html",
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/controls/control-1"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "controls/control-2",
+        "name": "control-2",
+        "category": "controls",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/controls/control-2/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/controls/control-2"
       }
     ]
   },
