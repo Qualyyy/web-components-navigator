@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/mainstyle.css">
 	<script defer src="js/index.js"></script>
 	<script defer src="js/theme.js"></script>
+	<script defer src="js/filter.js"></script>
 	<link rel="shortcut icon" href="images/favicon-filled.webp" type="image/x-icon">
 	<title>Web Components Navigator</title>
 </head>
@@ -27,9 +28,7 @@
 			<div class="filters-sidebar card">
 				<section class="filter-section">
 					<h3>Owners</h3>
-					<ul>
-						<li><label><input type="checkbox" name="owner" value="owner1">Owner 1</label></li>
-						<li><label><input type="checkbox" name="owner" value="owner2">Owner 2</label></li>
+					<ul id="filter-list-owners">
 					</ul>
 				</section>
 				<section class="filter-section">
