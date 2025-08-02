@@ -110,8 +110,10 @@ a {
 }
 
 body {
+    margin: 0 auto;
     min-height: 100dvh;
     max-height: 100dvh;
+    max-width: 1920px;
     background: var(--bg-dark);
     display: grid;
     grid-template-rows: auto 1fr;
@@ -219,7 +221,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 

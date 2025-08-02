@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1000px) {
+    #folders {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
