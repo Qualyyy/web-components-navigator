@@ -73,7 +73,9 @@ h4 {
 }
 
 p,
-a {
+a,
+input,
+label {
     font: var(--p);
 }
 
@@ -84,6 +86,7 @@ small {
 .card {
     background: var(--bg);
     border: var(--border-card);
+    border-radius: 1rem;
 }
 
 .card,
@@ -107,8 +110,13 @@ a {
 }
 
 body {
+    margin: 0 auto;
     min-height: 100dvh;
+    max-height: 100dvh;
+    max-width: 1920px;
     background: var(--bg-dark);
+    display: grid;
+    grid-template-rows: auto 1fr;
 }
 
 header {
@@ -168,25 +176,59 @@ header {
 
 
 main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.sidebar,
+#folders {
     padding: 1rem;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    height: fit-content;
+}
+
+.filters-sidebar {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    width: 70%;
-    margin: 0px auto;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.filter-section ul {
+    list-style: none;
+    padding-left: .5rem;
+    border-left: 2px solid var(--primary);
+}
+
+.filter-section input {
+    height: 1em;
+    width: 1em;
+}
+
+.filter-section label {
+    display: flex;
+    gap: .2rem;
+    align-items: center;
 }
 
 #folders {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .repo-container {
     display: flex;
     flex-direction: column;
     padding: .1rem;
-    border-radius: 2rem;
 }
 
 .repo-header {
@@ -195,7 +237,7 @@ main {
     padding: .9rem;
     gap: .2rem;
     background: var(--bg);
-    border-radius: 1.9rem;
+    border-radius: .9rem;
     z-index: 100;
 }
 

@@ -452,6 +452,16 @@
         "category": "signups",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/signups/signup-3/index.html",
         "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/signups/signup-3"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
+        "path": "signups/signup-4",
+        "name": "signup-4",
+        "category": "signups",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/signups/signup-4/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/signups/signup-4"
       }
     ],
     "tricks": [
@@ -510,6 +520,18 @@
         "category": "controls",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/controls/control-2/index.html",
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/controls/control-2"
+      }
+    ],
+    "sliders": [
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "sliders/slider-1",
+        "name": "slider-1",
+        "category": "sliders",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sliders/slider-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sliders/slider-1"
       }
     ]
   },
