@@ -13,10 +13,5 @@
         "owner": "frontend-joe",
         "repo": "es6-components",
         "branch": "main"
-    },
-    {
-        "owner": "rubenshibu",
-        "repo": "css-components",
-        "branch": "master"
     }
 ]
