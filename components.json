@@ -830,5 +830,599 @@
         "sourceUrl": "https://github.com/rubenshibu/css-components/tree/master/"
       }
     ]
+  },
+  "zxuqian/html-css-examples": {
+    "root": [
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "01-social-icon-hover-glow-effect",
+        "name": "01-social-icon-hover-glow-effect",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/01-social-icon-hover-glow-effect/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/01-social-icon-hover-glow-effect"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "02-login-form-glass-effect",
+        "name": "02-login-form-glass-effect",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/02-login-form-glass-effect/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/02-login-form-glass-effect"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "03-chatting-ui",
+        "name": "03-chatting-ui",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/03-chatting-ui/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/03-chatting-ui"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "04-svg-text-drawing-effect",
+        "name": "04-svg-text-drawing-effect",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/04-svg-text-drawing-effect/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/04-svg-text-drawing-effect"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "05-button-hover-border-drawing-effect",
+        "name": "05-button-hover-border-drawing-effect",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/05-button-hover-border-drawing-effect/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/05-button-hover-border-drawing-effect"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "06-libra-ui-concept",
+        "name": "06-libra-ui-concept",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/06-libra-ui-concept/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/06-libra-ui-concept"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "07-3d-cubic-images",
+        "name": "07-3d-cubic-images",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/07-3d-cubic-images/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/07-3d-cubic-images"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "08-parallax-scrolling",
+        "name": "08-parallax-scrolling",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/08-parallax-scrolling/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/08-parallax-scrolling"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "09-japanese-pronunciation",
+        "name": "09-japanese-pronunciation",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/09-japanese-pronunciation/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/09-japanese-pronunciation"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "10-navigation-bar",
+        "name": "10-navigation-bar",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/10-navigation-bar/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/10-navigation-bar"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "11-canvas-bar-chart",
+        "name": "11-canvas-bar-chart",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/11-canvas-bar-chart/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/11-canvas-bar-chart"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "12-skill-progress-bar",
+        "name": "12-skill-progress-bar",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/12-skill-progress-bar/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/12-skill-progress-bar"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "13-css-3d-tutorial",
+        "name": "13-css-3d-tutorial",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/13-css-3d-tutorial/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/13-css-3d-tutorial"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "14-image-slider",
+        "name": "14-image-slider",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/14-image-slider/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/14-image-slider"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "15-responsive-navbar",
+        "name": "15-responsive-navbar",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/15-responsive-navbar/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/15-responsive-navbar"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "16-svg-animation-truck",
+        "name": "16-svg-animation-truck",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/16-svg-animation-truck/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/16-svg-animation-truck"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "17-upload-button",
+        "name": "17-upload-button",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/17-upload-button/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/17-upload-button"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "18-elsa-magic-effect",
+        "name": "18-elsa-magic-effect",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/18-elsa-magic-effect/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/18-elsa-magic-effect"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "19-profile-card",
+        "name": "19-profile-card",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/19-profile-card/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/19-profile-card"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "20-typewritter-effect",
+        "name": "20-typewritter-effect",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/20-typewritter-effect/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/20-typewritter-effect"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "21-range-slider",
+        "name": "21-range-slider",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/21-range-slider/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/21-range-slider"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "22-face-reco-mask",
+        "name": "22-face-reco-mask",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/22-face-reco-mask/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/22-face-reco-mask"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "23-fullwebsite-design-agency",
+        "name": "23-fullwebsite-design-agency",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/23-fullwebsite-design-agency/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/23-fullwebsite-design-agency"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "24-fetch-get-data",
+        "name": "24-fetch-get-data",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/24-fetch-get-data/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/24-fetch-get-data"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "25-neumorphism-tabs",
+        "name": "25-neumorphism-tabs",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/25-neumorphism-tabs/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/25-neumorphism-tabs"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "26-glassmorphism",
+        "name": "26-glassmorphism",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/26-glassmorphism/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/26-glassmorphism"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "27-glitch-effect",
+        "name": "27-glitch-effect",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/27-glitch-effect/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/27-glitch-effect"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "28-css-colors",
+        "name": "28-css-colors",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/28-css-colors/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/28-css-colors"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "29-resizable-element",
+        "name": "29-resizable-element",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/29-resizable-element/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/29-resizable-element"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "30-gradient-background-animation",
+        "name": "30-gradient-background-animation",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/30-gradient-background-animation/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/30-gradient-background-animation"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "31-05-wechat-emoji-effect",
+        "name": "31-05-wechat-emoji-effect",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/31-05-wechat-emoji-effect/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/31-05-wechat-emoji-effect"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "31-webcomponent-get-started",
+        "name": "31-webcomponent-get-started",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/31-webcomponent-get-started/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/31-webcomponent-get-started"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "32-place-item-center",
+        "name": "32-place-item-center",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/32-place-item-center/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/32-place-item-center"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "33-text-image-layout",
+        "name": "33-text-image-layout",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/33-text-image-layout/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/33-text-image-layout"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "34-drag-drop-api",
+        "name": "34-drag-drop-api",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/34-drag-drop-api/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/34-drag-drop-api"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "35-collision-physics",
+        "name": "35-collision-physics",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/35-collision-physics/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/35-collision-physics"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "36-tech-website",
+        "name": "36-tech-website",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/36-tech-website/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/36-tech-website"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "37-container-queries",
+        "name": "37-container-queries",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/37-container-queries/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/37-container-queries"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "38-horizontal-scrolling",
+        "name": "38-horizontal-scrolling",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/38-horizontal-scrolling/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/38-horizontal-scrolling"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "39-web-animations",
+        "name": "39-web-animations",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/39-web-animations/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/39-web-animations"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "40-multi-column-layout",
+        "name": "40-multi-column-layout",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/40-multi-column-layout/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/40-multi-column-layout"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "41-css-scroll-snap",
+        "name": "41-css-scroll-snap",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/41-css-scroll-snap/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/41-css-scroll-snap"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "42-clipboard-api",
+        "name": "42-clipboard-api",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/42-clipboard-api/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/42-clipboard-api"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "43-css-gradient-shadow",
+        "name": "43-css-gradient-shadow",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/43-css-gradient-shadow/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/43-css-gradient-shadow"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "44-css-pointer-events",
+        "name": "44-css-pointer-events",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/44-css-pointer-events/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/44-css-pointer-events"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "45-URLSearchParams",
+        "name": "45-URLSearchParams",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/45-URLSearchParams/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/45-URLSearchParams"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "46-css-aspect-ratio",
+        "name": "46-css-aspect-ratio",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/46-css-aspect-ratio/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/46-css-aspect-ratio"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "47-css-custom-scrollbar",
+        "name": "47-css-custom-scrollbar",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/47-css-custom-scrollbar/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/47-css-custom-scrollbar"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "48-css-clay-morphism",
+        "name": "48-css-clay-morphism",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/48-css-clay-morphism/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/48-css-clay-morphism"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "49-html-buit-in-dialog",
+        "name": "49-html-buit-in-dialog",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/49-html-buit-in-dialog/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/49-html-buit-in-dialog"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "50-css-grid-irregular-layout",
+        "name": "50-css-grid-irregular-layout",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/50-css-grid-irregular-layout/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/50-css-grid-irregular-layout"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "51-css-scroll-based-animation",
+        "name": "51-css-scroll-based-animation",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/51-css-scroll-based-animation/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/51-css-scroll-based-animation"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "52-day-night-toggle-button",
+        "name": "52-day-night-toggle-button",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/52-day-night-toggle-button/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/52-day-night-toggle-button"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "53-screenshot-html2-canvas",
+        "name": "53-screenshot-html2-canvas",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/53-screenshot-html2-canvas/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/53-screenshot-html2-canvas"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "54-navbar-dark-bouncing",
+        "name": "54-navbar-dark-bouncing",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/54-navbar-dark-bouncing/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/54-navbar-dark-bouncing"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "55-beautiful-table",
+        "name": "55-beautiful-table",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/55-beautiful-table/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/55-beautiful-table"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "56-animation-button",
+        "name": "56-animation-button",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/56-animation-button/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/56-animation-button"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "57-login-form-glass-2",
+        "name": "57-login-form-glass-2",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/57-login-form-glass-2/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/57-login-form-glass-2"
+      },
+      {
+        "owner": "zxuqian",
+        "repo": "html-css-examples",
+        "branch": "master",
+        "path": "",
+        "name": "components",
+        "category": "root",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/zxuqian/html-css-examples/master/index.html",
+        "sourceUrl": "https://github.com/zxuqian/html-css-examples/tree/master/"
+      }
+    ]
   }
 }
