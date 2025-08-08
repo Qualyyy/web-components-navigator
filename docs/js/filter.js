@@ -1,28 +1,26 @@
-document.getElementById('filter-list-owner').addEventListener('change', (event) => {
-    if (event.target.name === 'owner') {
-        updateVisibleRepos();
-    }
-});
+document.getElementById('filter-list-owner').addEventListener('change', updateAll);
+document.getElementById('filter-list-category').addEventListener('change', updateAll);
 
-function updateVisibleRepos() {
+function updateAll() {
     const selectedOwners = Array.from(document.querySelectorAll('input[name="owner"]:checked')).map(input => input.value);
+    const selectedCategories = Array.from(document.querySelectorAll('input[name="category"]:checked')).map(input => input.value);
+
     document.querySelectorAll('.repo-container').forEach(repoDiv => {
         const owner = repoDiv.getAttribute('data-owner');
         repoDiv.style.display = selectedOwners.length === 0 || selectedOwners.includes(owner) ? '' : 'none';
     });
-}
 
-document.getElementById('filter-list-category').addEventListener('change', (event) => {
-    if (event.target.name === 'category') {
-        updateVisibleCategories();
-    }
-});
-
-function updateVisibleCategories() {
-    const selectedCategories = Array.from(document.querySelectorAll('input[name="category"]:checked')).map(input => input.value);
     document.querySelectorAll('.folder-container').forEach(categoryDiv => {
         const category = categoryDiv.getAttribute('data-category');
         categoryDiv.style.display = selectedCategories.length === 0 || selectedCategories.includes(category) ? '' : 'none';
+    });
+
+    document.querySelectorAll('.repo-container').forEach(repoDiv => {
+        if (repoDiv.style.display === 'none') return;
+        const hasVisibleFolder = Array.from(
+            repoDiv.querySelectorAll('.folder-container')
+        ).some(categoryDiv => categoryDiv.style.display !== 'none');
+        repoDiv.style.display = hasVisibleFolder ? '' : 'none';
     });
 }
 
@@ -75,7 +73,6 @@ async function addAllFilters() {
         };
 
         for (const key in filters) {
-            console.log(key, filters[key]);
             addCheckboxes(key, filters[key]);
         }
     }
