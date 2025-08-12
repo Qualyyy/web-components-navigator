@@ -1,12 +1,3 @@
-async function addFilters(repoOwners) {
-    const filterListOwners = document.getElementById('filter-list-owners');
-    filterListOwners.innerHTML = '';
-
-    for (const owner of repoOwners) {
-        filterListOwners.insertAdjacentHTML('beforeend', `<li><label><input type="checkbox" name="owner" value="${owner}">${owner}</label></li>`)
-    }
-}
-
 async function createRepoDiv(owner, repo) {
     const foldersDiv = document.getElementById('folders');
 
@@ -71,7 +62,8 @@ async function processRepo(owner, repo, components) {
                 buttonsContainer = document.getElementById(buttonsId);
             } else {
                 folderContainer = document.createElement('div');
-                folderContainer.className = 'folder';
+                folderContainer.className = 'folder-container';
+                folderContainer.setAttribute('data-category', categoryName);
                 folderContainer.id = folderId;
                 categoriesContainer.appendChild(folderContainer);
 
@@ -89,7 +81,7 @@ async function processRepo(owner, repo, components) {
             // Add each component in this category
             componentList.forEach(component => {
                 const buttonDiv = document.createElement('div');
-                buttonDiv.className = 'button';
+                buttonDiv.className = 'button component-button';
                 buttonsContainer.appendChild(buttonDiv);
 
                 const sourceCodeButton = document.createElement('a');
@@ -126,16 +118,6 @@ async function fetchAllRepos() {
             const [owner, repo] = repoKey.split('/');
             return { owner, repo };
         });
-
-        // Add filter values
-        let repoOwners = [];
-        for (const repo of repos) {
-            if (!repoOwners.includes(repo.owner)) {
-                repoOwners.push(repo.owner);
-            }
-        }
-        console.log(repoOwners)
-        addFilters(repoOwners);
 
         // Create repo divs first
         for (const repo of repos) {
