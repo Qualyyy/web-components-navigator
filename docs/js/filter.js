@@ -53,7 +53,7 @@ function addCheckboxes(key, list) {
     const filterList = document.getElementById(`filter-list-${key}`);
     filterList.innerHTML = '';
 
-    for (const item of list) {
+    for (const item of list.sort()) {
         filterList.insertAdjacentHTML('beforeend', `<li><label><input type="checkbox" name="${key}" value="${item}">${item}</label></li>`)
     }
 }
