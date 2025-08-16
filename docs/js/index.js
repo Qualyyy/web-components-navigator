@@ -29,7 +29,7 @@ async function createRepoDiv(owner, repo) {
 
     const categoriesContainer = document.createElement('div');
     categoriesContainer.id = (owner + '-' + repo + '-categories-container');
-    categoriesContainer.className = 'categories-container'
+    categoriesContainer.className = 'categories-container';
     categoriesContainer.textContent = 'Loading...';
     repoDiv.appendChild(categoriesContainer);
 }

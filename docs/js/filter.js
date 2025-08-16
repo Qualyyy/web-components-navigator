@@ -54,7 +54,7 @@ function addCheckboxes(key, list) {
     filterList.innerHTML = '';
 
     for (const item of list.sort()) {
-        filterList.insertAdjacentHTML('beforeend', `<li><label><input type="checkbox" name="${key}" value="${item}">${item}</label></li>`)
+        filterList.insertAdjacentHTML('beforeend', `<li><label><input type="checkbox" name="${key}" value="${item}">${item}</label></li>`);
     }
 }
 
