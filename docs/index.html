@@ -6,8 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+	<link rel="stylesheet" type="text/css" href="css/media-queries.css">
 	<script defer src="js/index.js"></script>
 	<script defer src="js/theme.js"></script>
+	<script defer src="js/filter.js"></script>
 	<link rel="shortcut icon" href="images/favicon-filled.webp" type="image/x-icon">
 	<title>Web Components Navigator</title>
 </head>
@@ -23,35 +25,32 @@
 		</button>
 	</header>
 	<main>
-		<aside class="filters-sidebar">
-			<section class="filter-section">
-				<h3>Owners</h3>
-				<ul>
-					<li><label><input type="checkbox" name="owner" value="owner1"> Owner 1</label></li>
-					<li><label><input type="checkbox" name="owner" value="owner2"> Owner 2</label></li>
-					<!-- Add more owners as needed -->
-				</ul>
-			</section>
-			<section class="filter-section">
-				<h3>Category</h3>
-				<ul>
-					<li><label><input type="checkbox" name="category" value="cat1"> Category 1</label></li>
-					<li><label><input type="checkbox" name="category" value="cat2"> Category 2</label></li>
-					<li><label><input type="checkbox" name="category" value="cat3"> Category 3</label></li>
-					<!-- Add more categories as needed -->
-				</ul>
-			</section>
+		<aside class="sidebar">
+			<div class="filters-sidebar card">
+				<section class="filter-section">
+					<h3>Owners</h3>
+					<ul id="filter-list-owner">
+					</ul>
+				</section>
+				<section class="filter-section">
+					<h3>Categories</h3>
+					<ul id="filter-list-category">
+					</ul>
+				</section>
+			</div>
 		</aside>
-		<div id="folders">
-			<!-- 
-			.repo-title
-			.folder
-				.folder-heading
-				.buttons
-					.button
-						.btn-source-code
-						.btn-preview
-			-->
+		<div class="main-content">
+			<div id="folders">
+				<!-- 
+				.repo-title
+				.folder
+					.folder-heading
+					.buttons
+						.button
+							.btn-source-code
+							.btn-preview
+				-->
+			</div>
 		</div>
 	</main>
 </body>

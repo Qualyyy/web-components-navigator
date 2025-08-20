@@ -4,6 +4,7 @@ async function createRepoDiv(owner, repo) {
     const repoDiv = document.createElement('div');
     repoDiv.id = (owner + '-' + repo);
     repoDiv.className = 'card repo-container';
+    repoDiv.setAttribute('data-owner', owner);
     foldersDiv.appendChild(repoDiv);
 
     const repoHeader = document.createElement('div');
@@ -28,7 +29,7 @@ async function createRepoDiv(owner, repo) {
 
     const categoriesContainer = document.createElement('div');
     categoriesContainer.id = (owner + '-' + repo + '-categories-container');
-    categoriesContainer.className = 'categories-container'
+    categoriesContainer.className = 'categories-container';
     categoriesContainer.textContent = 'Loading...';
     repoDiv.appendChild(categoriesContainer);
 }
@@ -61,7 +62,8 @@ async function processRepo(owner, repo, components) {
                 buttonsContainer = document.getElementById(buttonsId);
             } else {
                 folderContainer = document.createElement('div');
-                folderContainer.className = 'folder';
+                folderContainer.className = 'folder-container';
+                folderContainer.setAttribute('data-category', categoryName);
                 folderContainer.id = folderId;
                 categoriesContainer.appendChild(folderContainer);
 
@@ -79,7 +81,7 @@ async function processRepo(owner, repo, components) {
             // Add each component in this category
             componentList.forEach(component => {
                 const buttonDiv = document.createElement('div');
-                buttonDiv.className = 'button';
+                buttonDiv.className = 'button component-button';
                 buttonsContainer.appendChild(buttonDiv);
 
                 const sourceCodeButton = document.createElement('a');
