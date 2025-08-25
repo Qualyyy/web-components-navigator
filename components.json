@@ -532,6 +532,18 @@
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/controls/control-2"
       }
     ],
+    "sidebars": [
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "sidebars/sidebar-1",
+        "name": "sidebar-1",
+        "category": "sidebars",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-1"
+      }
+    ],
     "sliders": [
       {
         "owner": "frontend-joe",
