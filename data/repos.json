@@ -6,6 +6,11 @@
     },
     {
         "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main"
+    },
+    {
+        "owner": "frontend-joe",
         "repo": "js-components",
         "branch": "main"
     },
