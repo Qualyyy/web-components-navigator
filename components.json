@@ -440,6 +440,16 @@
         "category": "sidebars",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-4/index.html",
         "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-4"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
+        "path": "sidebars/sidebar-5",
+        "name": "sidebar-5",
+        "category": "sidebars",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-5/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-5"
       }
     ],
     "signups": [
@@ -494,6 +504,352 @@
         "category": "tricks",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/tricks/sticky-sidebar/index.html",
         "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/tricks/sticky-sidebar"
+      }
+    ]
+  },
+  "frontend-joe/css-reels": {
+    "burgers": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "burgers/part-1",
+        "name": "part-1",
+        "category": "burgers",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/burgers/part-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/burgers/part-1"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "burgers/part-2",
+        "name": "part-2",
+        "category": "burgers",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/burgers/part-2/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/burgers/part-2"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "burgers/part-3",
+        "name": "part-3",
+        "category": "burgers",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/burgers/part-3/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/burgers/part-3"
+      }
+    ],
+    "buttons": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "buttons/part-1",
+        "name": "part-1",
+        "category": "buttons",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/buttons/part-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/buttons/part-1"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "buttons/part-2",
+        "name": "part-2",
+        "category": "buttons",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/buttons/part-2/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/buttons/part-2"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "buttons/part-3",
+        "name": "part-3",
+        "category": "buttons",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/buttons/part-3/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/buttons/part-3"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "buttons/part-4",
+        "name": "part-4",
+        "category": "buttons",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/buttons/part-4/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/buttons/part-4"
+      }
+    ],
+    "checkboxes": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "checkboxes/part-1",
+        "name": "part-1",
+        "category": "checkboxes",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/checkboxes/part-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/checkboxes/part-1"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "checkboxes/part-2",
+        "name": "part-2",
+        "category": "checkboxes",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/checkboxes/part-2/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/checkboxes/part-2"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "checkboxes/part-3",
+        "name": "part-3",
+        "category": "checkboxes",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/checkboxes/part-3/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/checkboxes/part-3"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "checkboxes/part-4",
+        "name": "part-4",
+        "category": "checkboxes",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/checkboxes/part-4/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/checkboxes/part-4"
+      }
+    ],
+    "dropdowns": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "dropdowns/part-1",
+        "name": "part-1",
+        "category": "dropdowns",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/dropdowns/part-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/dropdowns/part-1"
+      }
+    ],
+    "examples": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "examples/child-selectors",
+        "name": "child-selectors",
+        "category": "examples",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/examples/child-selectors/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/examples/child-selectors"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "examples/filter-property",
+        "name": "filter-property",
+        "category": "examples",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/examples/filter-property/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/examples/filter-property"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "examples/timing-function-2",
+        "name": "timing-function-2",
+        "category": "examples",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/examples/timing-function-2/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/examples/timing-function-2"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "examples/timing-function",
+        "name": "timing-function",
+        "category": "examples",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/examples/timing-function/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/examples/timing-function"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "examples/transforms",
+        "name": "transforms",
+        "category": "examples",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/examples/transforms/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/examples/transforms"
+      }
+    ],
+    "inputs": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "inputs/part-1",
+        "name": "part-1",
+        "category": "inputs",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/inputs/part-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/inputs/part-1"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "inputs/part-2",
+        "name": "part-2",
+        "category": "inputs",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/inputs/part-2/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/inputs/part-2"
+      }
+    ],
+    "loaders": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "loaders/part-3",
+        "name": "part-3",
+        "category": "loaders",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-3/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-3"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "loaders/part-4",
+        "name": "part-4",
+        "category": "loaders",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-4/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-4"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "loaders/part-5",
+        "name": "part-5",
+        "category": "loaders",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-5/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-5"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "loaders/part-6",
+        "name": "part-6",
+        "category": "loaders",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-6/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-6"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "loaders/part-7",
+        "name": "part-7",
+        "category": "loaders",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-7/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-7"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "loaders/part-8",
+        "name": "part-8",
+        "category": "loaders",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-8/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-8"
+      }
+    ],
+    "menus": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "menus/part-1",
+        "name": "part-1",
+        "category": "menus",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/menus/part-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/menus/part-1"
+      }
+    ],
+    "modals": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "modals/part-1",
+        "name": "part-1",
+        "category": "modals",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/modals/part-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/modals/part-1"
+      }
+    ],
+    "svgs": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "svgs/part-3",
+        "name": "part-3",
+        "category": "svgs",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/svgs/part-3/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/svgs/part-3"
+      }
+    ],
+    "switches": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "switches/part-1",
+        "name": "part-1",
+        "category": "switches",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/switches/part-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/switches/part-1"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "switches/part-2",
+        "name": "part-2",
+        "category": "switches",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/switches/part-2/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/switches/part-2"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "switches/part-4",
+        "name": "part-4",
+        "category": "switches",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/switches/part-4/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/switches/part-4"
+      }
+    ],
+    "tooltips": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "tooltips/part-1",
+        "name": "part-1",
+        "category": "tooltips",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/tooltips/part-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/tooltips/part-1"
       }
     ]
   },
@@ -552,6 +908,16 @@
         "category": "sidebars",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-1/index.html",
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-1"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "sidebars/sidebar-2",
+        "name": "sidebar-2",
+        "category": "sidebars",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-2/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-2"
       }
     ],
     "sliders": [
