@@ -770,6 +770,16 @@
         "category": "loaders",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-8/index.html",
         "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-8"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-reels",
+        "branch": "main",
+        "path": "loaders/part-9",
+        "name": "part-9",
+        "category": "loaders",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-9/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-9"
       }
     ],
     "menus": [
