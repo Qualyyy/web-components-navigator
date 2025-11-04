@@ -75,11 +75,13 @@ h4 {
 p,
 a,
 input,
-label {
+label,
+select {
     font: var(--p);
 }
 
-small {
+small,
+.filter-section-time div * {
     font: var(--small);
 }
 
@@ -201,13 +203,26 @@ main {
     direction: ltr;
 }
 
-.filter-section ul {
+.filter-section h3 + * {
     list-style: none;
     padding-left: .5rem;
     border-left: 2px solid var(--primary);
 }
 
-.filter-section input {
+.filter-section-time input,
+.filter-section-time select {
+    background: none;
+    border-bottom: 2px solid var(--border);
+    text-align: center;
+    line-height: 1em;
+}
+
+.filter-section-time input {
+    outline: none;
+    width: 2.5rem;
+}
+
+.filter-section input[type="checkbox"] {
     height: 1em;
     width: 1em;
 }

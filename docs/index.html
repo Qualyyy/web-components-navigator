@@ -28,6 +28,20 @@
 	<main>
 		<aside class="sidebar">
 			<div class="filters-sidebar card">
+				<section class="filter-section filter-section-time">
+					<h3>Time</h3>
+					<div>
+						<small>Added</small>
+						<input type="number" name="time-amount" id="time-amount" placeholder="0" min="0" max="99">
+						<select name="time-stamp" id="time-stamp">
+							<option value="days">days</option>
+							<option value="weeks">weeks</option>
+							<option value="months">months</option>
+							<option value="years">years</option>
+						</select>
+						<small>ago</small>
+					</div>
+				</section>
 				<section class="filter-section" style="display: none;"> <!-- Currently only 1 owner -->
 					<h3>Owners</h3>
 					<ul id="filter-list-owner">

@@ -83,7 +83,10 @@ summary,
 time,
 mark,
 audio,
-video {
+video,
+input,
+label,
+select {
     margin: 0;
     padding: 0;
     border: 0;
