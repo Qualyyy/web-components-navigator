@@ -928,6 +928,18 @@
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/controls/control-2"
       }
     ],
+    "logins": [
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "logins/login-1",
+        "name": "login-1",
+        "category": "logins",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-1"
+      }
+    ],
     "sidebars": [
       {
         "owner": "frontend-joe",
