@@ -960,6 +960,16 @@
         "category": "sidebars",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-2/index.html",
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-2"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "sidebars/sidebar-3",
+        "name": "sidebar-3",
+        "category": "sidebars",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-3/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-3"
       }
     ],
     "sliders": [
