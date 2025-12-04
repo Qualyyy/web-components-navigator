@@ -210,6 +210,16 @@
         "category": "footers",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-8/index.html",
         "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-8"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
+        "path": "footers/footer-9",
+        "name": "footer-9",
+        "category": "footers",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-9/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-9"
       }
     ],
     "logins": [
