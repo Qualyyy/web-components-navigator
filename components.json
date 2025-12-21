@@ -72,6 +72,16 @@
         "category": "cards",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-8/index.html",
         "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-8"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
+        "path": "cards/card-9",
+        "name": "card-9",
+        "category": "cards",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-9/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-9"
       }
     ],
     "carousels": [
