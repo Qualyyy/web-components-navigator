@@ -904,6 +904,18 @@
     ]
   },
   "frontend-joe/js-components": {
+    "banners": [
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "banners/banner-1",
+        "name": "banner-1",
+        "category": "banners",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/banners/banner-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/banners/banner-1"
+      }
+    ],
     "carousels": [
       {
         "owner": "frontend-joe",
