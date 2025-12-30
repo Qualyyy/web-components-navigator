@@ -1010,6 +1010,16 @@
         "category": "logins",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-3/index.html",
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-3"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "logins/login-4",
+        "name": "login-4",
+        "category": "logins",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-4/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-4"
       }
     ],
     "navbars": [
