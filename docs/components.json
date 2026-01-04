@@ -267,6 +267,16 @@
         "owner": "frontend-joe",
         "repo": "css-components",
         "branch": "main",
+        "path": "logins/login-12",
+        "name": "login-12",
+        "category": "logins",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-12/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-12"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
         "path": "logins/login-2",
         "name": "login-2",
         "category": "logins",
