@@ -565,6 +565,18 @@
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/tricks/sticky-sidebar/index.html",
         "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/tricks/sticky-sidebar"
       }
+    ],
+    "widgets": [
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
+        "path": "widgets/widget-1",
+        "name": "widget-1",
+        "category": "widgets",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/widgets/widget-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/widgets/widget-1"
+      }
     ]
   },
   "frontend-joe/css-reels": {
