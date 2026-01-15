@@ -165,6 +165,16 @@
         "owner": "frontend-joe",
         "repo": "css-components",
         "branch": "main",
+        "path": "footers/footer-11",
+        "name": "footer-11",
+        "category": "footers",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-11/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-11"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
         "path": "footers/footer-2",
         "name": "footer-2",
         "category": "footers",
