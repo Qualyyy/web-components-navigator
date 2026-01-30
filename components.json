@@ -27,6 +27,16 @@
         "owner": "frontend-joe",
         "repo": "css-components",
         "branch": "main",
+        "path": "cards/card-10",
+        "name": "card-10",
+        "category": "cards",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-10/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-10"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
         "path": "cards/card-2",
         "name": "card-2",
         "category": "cards",
