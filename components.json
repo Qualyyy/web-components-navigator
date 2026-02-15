@@ -1030,6 +1030,16 @@
         "category": "controls",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/controls/control-3/index.html",
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/controls/control-3"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "controls/control-4",
+        "name": "control-4",
+        "category": "controls",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/controls/control-4/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/controls/control-4"
       }
     ],
     "gsap": [
@@ -1094,6 +1104,16 @@
         "category": "logins",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-5/index.html",
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-5"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "logins/login-6",
+        "name": "login-6",
+        "category": "logins",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-6/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-6"
       }
     ],
     "navbars": [
