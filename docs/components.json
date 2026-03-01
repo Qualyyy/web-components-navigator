@@ -297,6 +297,16 @@
         "owner": "frontend-joe",
         "repo": "css-components",
         "branch": "main",
+        "path": "logins/login-15",
+        "name": "login-15",
+        "category": "logins",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-15/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-15"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
         "path": "logins/login-2",
         "name": "login-2",
         "category": "logins",
@@ -1134,6 +1144,18 @@
         "category": "logins",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-7/index.html",
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-7"
+      }
+    ],
+    "modals": [
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "modals/modal-1",
+        "name": "modal-1",
+        "category": "modals",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/modals/modal-1/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/modals/modal-1"
       }
     ],
     "navbars": [
