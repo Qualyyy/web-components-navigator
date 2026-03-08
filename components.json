@@ -560,6 +560,16 @@
         "category": "sidebars",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-6/index.html",
         "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-6"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
+        "path": "sidebars/sidebar-7",
+        "name": "sidebar-7",
+        "category": "sidebars",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-7/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-7"
       }
     ],
     "signups": [
@@ -1072,6 +1082,16 @@
         "category": "gsap",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/gsap/gsap-1/index.html",
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/gsap/gsap-1"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "gsap/gsap-2",
+        "name": "gsap-2",
+        "category": "gsap",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/gsap/gsap-2/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/gsap/gsap-2"
       }
     ],
     "logins": [
