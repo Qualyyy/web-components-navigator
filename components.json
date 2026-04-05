@@ -195,6 +195,16 @@
         "owner": "frontend-joe",
         "repo": "css-components",
         "branch": "main",
+        "path": "footers/footer-13",
+        "name": "footer-13",
+        "category": "footers",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-13/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-13"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
         "path": "footers/footer-2",
         "name": "footer-2",
         "category": "footers",
@@ -1184,6 +1194,16 @@
         "category": "logins",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-7/index.html",
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-7"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "logins/login-8",
+        "name": "login-8",
+        "category": "logins",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-8/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-8"
       }
     ],
     "modals": [
