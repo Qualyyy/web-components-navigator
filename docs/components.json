@@ -337,6 +337,16 @@
         "owner": "frontend-joe",
         "repo": "css-components",
         "branch": "main",
+        "path": "logins/login-17",
+        "name": "login-17",
+        "category": "logins",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-17/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-17"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
         "path": "logins/login-2",
         "name": "login-2",
         "category": "logins",
@@ -1310,6 +1320,16 @@
         "category": "sidebars",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-8/index.html",
         "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-8"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "js-components",
+        "branch": "main",
+        "path": "sidebars/sidebar-9",
+        "name": "sidebar-9",
+        "category": "sidebars",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-9/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-9"
       }
     ],
     "sliders": [
