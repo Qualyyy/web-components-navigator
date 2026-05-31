@@ -620,6 +620,16 @@
         "category": "sidebars",
         "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-7/index.html",
         "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-7"
+      },
+      {
+        "owner": "frontend-joe",
+        "repo": "css-components",
+        "branch": "main",
+        "path": "sidebars/sidebar-8",
+        "name": "sidebar-8",
+        "category": "sidebars",
+        "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-8/index.html",
+        "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-8"
       }
     ],
     "signups": [
