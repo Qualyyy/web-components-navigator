@@ -1,24 +1,28 @@
-document.getElementById('filter-list-owner').addEventListener('change', updateAll);
-document.getElementById('filter-list-category').addEventListener('change', updateAll);
+export function init() {
+    document.getElementById('filter-list-owner').addEventListener('change', updateAll);
+    document.getElementById('filter-list-category').addEventListener('change', updateAll);
+
+    addAllFilters();
+}
 
 function updateAll() {
     const selectedOwners = Array.from(document.querySelectorAll('input[name="owner"]:checked')).map(input => input.value);
     const selectedCategories = Array.from(document.querySelectorAll('input[name="category"]:checked')).map(input => input.value);
 
-    document.querySelectorAll('.repo-container').forEach(repoDiv => {
-        const owner = repoDiv.getAttribute('data-owner');
-        repoDiv.style.display = selectedOwners.length === 0 || selectedOwners.includes(owner) ? '' : 'none';
+    document.querySelectorAll('.repo-container').forEach(repoContainer => {
+        const owner = repoContainer.dataset.owner;
+        repoContainer.style.display = selectedOwners.length === 0 || selectedOwners.includes(owner) ? '' : 'none';
     });
 
-    document.querySelectorAll('.folder-container').forEach(categoryDiv => {
-        const category = categoryDiv.getAttribute('data-category');
-        categoryDiv.style.display = selectedCategories.length === 0 || selectedCategories.includes(category) ? '' : 'none';
+    document.querySelectorAll('.category-container').forEach(categoryContainer => {
+        const category = categoryContainer.dataset.category;
+        categoryContainer.style.display = selectedCategories.length === 0 || selectedCategories.includes(category) ? '' : 'none';
     });
 
     document.querySelectorAll('.repo-container').forEach(repoDiv => {
         if (repoDiv.style.display === 'none') return;
         const hasVisibleFolder = Array.from(
-            repoDiv.querySelectorAll('.folder-container')
+            repoDiv.querySelectorAll('.category-container')
         ).some(categoryDiv => categoryDiv.style.display !== 'none');
         repoDiv.style.display = hasVisibleFolder ? '' : 'none';
     });
@@ -27,9 +31,8 @@ function updateAll() {
 function getOwners(data) {
     const ownersSet = new Set();
 
-    for (const repoKey in data) {
-        const owner = repoKey.split('/')[0];
-        ownersSet.add(owner);
+    for (const repo of data) {
+        ownersSet.add(repo.owner);
     }
 
     return Array.from(ownersSet).sort();
@@ -79,5 +82,3 @@ async function addAllFilters() {
         console.error('Error loading components:', error);
     }
 }
-
-addAllFilters();

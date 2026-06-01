@@ -1,5 +1,9 @@
+import * as FILTER from "./filter.js";
+import * as THEME from "./theme.js";
 
 function init() {
+    FILTER.init();
+    THEME.init();
     document.querySelector("#content").addEventListener("click", toggleRepo);
 
     fetchAllRepos();
@@ -50,7 +54,7 @@ async function processRepo(repo) {
                 const $categoryTemplate = document.querySelector("#template--category");
                 const $clone = document.importNode($categoryTemplate.content, true);
                 const $container = $clone.firstElementChild;
-
+                $container.dataset.category = category;
                 $container.querySelector(".category-name").textContent = category;
 
                 $categoryContainer = $container;
