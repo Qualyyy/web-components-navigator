@@ -301,17 +301,17 @@ body {
     display: flex;
 }
 
-.folder-container {
+.category-container {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.folder-heading {
+.category-name {
     text-decoration: underline .2rem var(--secondary);
 }
 
-.buttons {
+.components {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;

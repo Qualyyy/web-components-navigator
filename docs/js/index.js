@@ -34,69 +34,47 @@ async function createRepoDiv(repo) {
 }
 
 async function processRepo(repo) {
-    const categoriesContainer = document.querySelector(`[data-sha="${repo.sha}"] .repo-categories`);
+    const $categoriesContainer = document.querySelector(`[data-sha="${repo.sha}"] .repo-categories`);
     try {
         if (!repo.components || Object.keys(repo.components).length === 0) {
-            categoriesContainer.textContent = "No components found.";
+            $categoriesContainer.textContent = "No components found.";
             return;
         }
-
-        categoriesContainer.textContent = "";
+        $categoriesContainer.textContent = "";
 
         // Process each category in this repo
-        for ([categoryName, componentList] of Object.entries(repo.components)) {
+        for (const category in repo.components) {
             // Create or find folder container for this category
-            let folderContainer;
-            let buttonsContainer;
-            const folderId = (repo.owner + "-" + repo.name + "-" + categoryName).replaceAll(" ", "-");
-            const buttonsId = folderId + "-buttons";
+            let $categoryContainer = $categoriesContainer.querySelector(`[data-category=${category}]`);
+            if (!$categoryContainer) {
+                const $categoryTemplate = document.querySelector("#template--category");
+                const $clone = document.importNode($categoryTemplate.content, true);
+                const $container = $clone.firstElementChild;
 
-            if (document.getElementById(folderId)) {
-                folderContainer = document.getElementById(folderId);
-                buttonsContainer = document.getElementById(buttonsId);
-            } else {
-                folderContainer = document.createElement("div");
-                folderContainer.className = "folder-container";
-                folderContainer.setAttribute("data-category", categoryName);
-                folderContainer.id = folderId;
-                categoriesContainer.appendChild(folderContainer);
+                $container.querySelector(".category-name").textContent = category;
 
-                const folderHeading = document.createElement("h3");
-                folderHeading.className = "folder-heading";
-                folderHeading.textContent = categoryName;
-                folderContainer.appendChild(folderHeading);
-
-                buttonsContainer = document.createElement("div");
-                buttonsContainer.className = "buttons";
-                buttonsContainer.id = buttonsId;
-                folderContainer.appendChild(buttonsContainer);
+                $categoryContainer = $container;
+                $categoriesContainer.appendChild($clone);
             }
 
-            // Add each component in this category
-            componentList.forEach(component => {
-                const buttonDiv = document.createElement("div");
-                buttonDiv.className = "button component-button";
-                buttonsContainer.appendChild(buttonDiv);
+            const $fragment = document.createDocumentFragment();
+            const $template = document.querySelector("#template--component");
 
-                const sourceCodeButton = document.createElement("a");
-                sourceCodeButton.className = "btn btn-source-code";
-                sourceCodeButton.textContent = "</>";
-                sourceCodeButton.href = component.sourceUrl;
-                sourceCodeButton.target = "_blank";
-                buttonDiv.appendChild(sourceCodeButton);
+            for (const component of repo.components[category]) {
+                const $clone = $template.content.cloneNode(true);
 
-                const previewButton = document.createElement("a");
-                previewButton.className = "btn btn-preview";
-                previewButton.textContent = component.name.replaceAll("-", " ");
-                // Use the proxy URL instead of htmlpreview
-                previewButton.href = component.previewUrl;
-                previewButton.target = "_blank";
-                buttonDiv.appendChild(previewButton);
-            });
+                $clone.querySelector(".btn-source-code").href = component.sourceUrl;
+                $clone.querySelector(".btn-preview").href = component.previewUrl;
+                $clone.querySelector(".btn-preview").textContent = component.name;
+
+                $fragment.appendChild($clone);
+            }
+
+            $categoryContainer.querySelector(".components").appendChild($fragment);
         };
 
     } catch (error) {
-        categoriesContainer.textContent = "Error: " + error.message;
+        $categoriesContainer.textContent = "Error: " + error.message;
     }
 }
 
