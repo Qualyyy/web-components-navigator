@@ -16,7 +16,7 @@
 </head>
 
 <body>
-	<header>
+	<header id="header">
 		<div class="website-title">
 			<div class="favicon"></div>
 			<h1>Web Components Navigator</h1>
@@ -25,7 +25,7 @@
 			<img id="theme-icon" src="images/sun-moon.svg" alt="">
 		</button>
 	</header>
-	<main>
+	<main id="main">
 		<aside class="sidebar">
 			<div class="filters-sidebar card">
 				<section class="filter-section filter-section-time" style="display: none;">
@@ -54,7 +54,7 @@
 				</section>
 			</div>
 		</aside>
-		<div class="main-content">
+		<div id="content">
 			<div id="folders">
 				<!-- 
 				.repo-title
@@ -68,6 +68,19 @@
 			</div>
 		</div>
 	</main>
+	<template id="template--repo">
+		<div class="card repo-container">
+			<header class="repo-header">
+				<a href="#" class="repo-link" target="_blank"></a>
+				<h2 class="repo-title">
+					<span class="repo-name"></span>
+					by
+					<span class="repo-owner"></span>
+				</h2>
+			</header>
+			<main class="repo-categories">Loading...</main>
+		</div>
+	</template>
 </body>
 
 </html>
