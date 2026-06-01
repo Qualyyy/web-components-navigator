@@ -2,7 +2,6 @@ const themeToggle = document.getElementById('theme-toggle');
 const themeIcon = document.getElementById('theme-icon');
 
 export function init() {
-    updateThemeIcon();
 
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'dark') {
@@ -19,10 +18,12 @@ export function init() {
         localStorage.setItem('theme', isDark ? 'dark' : 'light');
         updateThemeIcon();
     });
+
+    updateThemeIcon();
 }
 
 // Update the icon based on current theme
 function updateThemeIcon() {
     const isDark = document.documentElement.classList.contains('dark');
-    themeIcon.src = isDark ? 'images/moon.svg' : 'images/sun.svg';
+    themeIcon.src = isDark ? 'assets/media/moon.svg' : 'assets/media/sun.svg';
 }

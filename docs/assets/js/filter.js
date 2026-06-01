@@ -62,7 +62,7 @@ function addCheckboxes(key, list) {
 
 async function addAllFilters() {
     try {
-        const response = await fetch(`./components.json?ts=${Date.now()}`);
+        const response = await fetch(`./assets/data/components.json?ts=${Date.now()}`);
         if (!response.ok) throw new Error('Failed to load components.json');
         const components = await response.json();
 

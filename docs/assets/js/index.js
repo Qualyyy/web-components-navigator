@@ -85,7 +85,7 @@ async function processRepo(repo) {
 async function fetchAllRepos() {
     try {
         // Load the components.json file we generated
-        const response = await fetch(`./components.json?ts=${Date.now()}`);
+        const response = await fetch(`./assets/data/components.json?ts=${Date.now()}`);
         if (!response.ok) throw new Error("Failed to load components.json");
         const repos = await response.json();
 

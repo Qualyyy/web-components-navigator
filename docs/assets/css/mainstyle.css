@@ -140,7 +140,7 @@ body {
     background: var(--text);
     height: 1em;
     width: 1em;
-    mask-image: url(../images/favicon.webp);
+    mask-image: url(../media/favicon.webp);
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;
@@ -272,7 +272,7 @@ body {
     background: var(--text);
     height: 1em;
     width: 1em;
-    mask-image: url(../images/github-logo.webp);
+    mask-image: url(../media/github-logo.webp);
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;
