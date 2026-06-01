@@ -38,9 +38,8 @@ function getOwners(data) {
 function getCategories(data) {
     const categoriesSet = new Set();
 
-    for (const repoKey in data) {
-        const repo = data[repoKey];
-        for (const category in repo) {
+    for (const repo of data) {
+        for (const category in repo.components) {
             categoriesSet.add(category);
         }
     }

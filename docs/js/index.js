@@ -27,8 +27,8 @@ async function createRepoDiv(owner, repo) {
     $container.dataset.owner = owner;
 
     $container.querySelector(".repo-link").href = `https://github.com/${owner}/${repo}`;
-    $container.querySelector(".repo-name").textContent = repo;
-    $container.querySelector(".repo-owner").textContent = owner;
+    $container.querySelector(".repo-name").textContent = repo.replaceAll("-", " ");
+    $container.querySelector(".repo-owner").textContent = owner.replaceAll("-", " ");
 
 
     $container.querySelector(".repo-categories").id = (owner + "-" + repo + "-categories-container");
@@ -40,11 +40,7 @@ async function processRepo(owner, repo, components) {
     const categoriesContainer = document.getElementById(owner + "-" + repo + "-categories-container");
 
     try {
-        // Filter components for this specific repo
-        const repoKey = `${owner}/${repo}`;
-        const repoComponents = components[repoKey];
-
-        if (!repoComponents || Object.keys(repoComponents).length === 0) {
+        if (!components || Object.keys(components).length === 0) {
             categoriesContainer.textContent = "No components found.";
             return;
         }
@@ -52,7 +48,7 @@ async function processRepo(owner, repo, components) {
         categoriesContainer.textContent = "";
 
         // Process each category in this repo
-        Object.entries(repoComponents).forEach(([categoryName, componentList]) => {
+        for ([categoryName, componentList] of Object.entries(components)) {
             // Create or find folder container for this category
             let folderContainer;
             let buttonsContainer;
@@ -101,7 +97,7 @@ async function processRepo(owner, repo, components) {
                 previewButton.target = "_blank";
                 buttonDiv.appendChild(previewButton);
             });
-        });
+        };
 
     } catch (error) {
         categoriesContainer.textContent = "Error: " + error.message;
@@ -113,13 +109,7 @@ async function fetchAllRepos() {
         // Load the components.json file we generated
         const response = await fetch(`./components.json?ts=${Date.now()}`);
         if (!response.ok) throw new Error("Failed to load components.json");
-        const components = await response.json();
-
-        // Get unique repos from the component data
-        const repos = Object.keys(components).map(repoKey => {
-            const [owner, repo] = repoKey.split("/");
-            return { owner, repo };
-        });
+        const repos = await response.json();
 
         // Create repo divs first
         for (const repo of repos) {
@@ -128,7 +118,7 @@ async function fetchAllRepos() {
 
         // Then process each repo with its components
         for (const repo of repos) {
-            await processRepo(repo.owner, repo.repo, components);
+            await processRepo(repo.owner, repo.repo, repo.components);
         }
 
     } catch (error) {
