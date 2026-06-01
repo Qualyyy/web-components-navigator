@@ -46,9 +46,8 @@ async function processRepo(repo) {
         }
         $categoriesContainer.textContent = "";
 
-        // Process each category in this repo
         for (const category in repo.components) {
-            // Create or find folder container for this category
+
             let $categoryContainer = $categoriesContainer.querySelector(`[data-category=${category}]`);
             if (!$categoryContainer) {
                 const $categoryTemplate = document.querySelector("#template--category");
@@ -84,17 +83,14 @@ async function processRepo(repo) {
 
 async function fetchAllRepos() {
     try {
-        // Load the components.json file we generated
         const response = await fetch(`./assets/data/components.json?ts=${Date.now()}`);
         if (!response.ok) throw new Error("Failed to load components.json");
         const repos = await response.json();
 
-        // Create repo divs first
         for (const repo of repos) {
             await createRepoDiv(repo);
         }
 
-        // Then process each repo with its components
         for (const repo of repos) {
             await processRepo(repo);
         }
@@ -112,5 +108,4 @@ async function fetchAllRepos() {
     }
 }
 
-// Load components when page loads
 init();

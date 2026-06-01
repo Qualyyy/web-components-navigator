@@ -42,7 +42,7 @@ async function buildComponentIndex() {
             console.log(`\tFound ${indexFiles.length} components`);
 
             // Process each index.html file
-            indexFiles.forEach(file => {
+            for (const file of indexFiles) {
                 const componentPath = file.path.replace('index.html', '').slice(0, -1);
                 const componentName = componentPath.split('/').pop() || 'components';
                 const categoryName = componentPath.split('/')[0] || 'root';
@@ -56,7 +56,7 @@ async function buildComponentIndex() {
                     previewUrl: `https://component-proxy.qualyj.workers.dev/${owner}/${repo}/${branch}/${file.path}`,
                     sourceUrl: `https://github.com/${owner}/${repo}/tree/${branch}/${componentPath}`
                 });
-            });
+            };
 
             allComponents.push(repoObject);
 
@@ -64,18 +64,15 @@ async function buildComponentIndex() {
             console.error(`❌ Error processing ${owner}/${repo}:`, error.message);
         }
 
-        // Wait a bit between requests to be nice to GitHub's servers
         await new Promise(resolve => setTimeout(resolve, 1000));
     }
 
-    // Make sure docs directory exists
-    if (!fs.existsSync('docs')) {
-        fs.mkdirSync('docs');
+    if (!fs.existsSync('docs/assets/data')) {
+        fs.mkdirSync('docs/assets/data');
     }
 
-    // Save the component list
     fs.writeFileSync(
-        'docs/components.json',
+        'docs/assets/data/components.json',
         JSON.stringify(allComponents, null, 2)
     );
 
