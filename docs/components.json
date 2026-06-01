@@ -3,10 +3,10 @@
     "repo": "css-components",
     "owner": "frontend-joe",
     "branch": "main",
+    "sha": "e2d5d981c26c454b473121b7803f90e59a4eede2",
     "components": {
       "accordions": [
         {
-          "path": "accordions/accordion-1",
           "name": "accordion-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/accordions/accordion-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/accordions/accordion-1"
@@ -14,49 +14,41 @@
       ],
       "cards": [
         {
-          "path": "cards/card-1",
           "name": "card-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-1"
         },
         {
-          "path": "cards/card-10",
           "name": "card-10",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-10/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-10"
         },
         {
-          "path": "cards/card-2",
           "name": "card-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-2"
         },
         {
-          "path": "cards/card-3",
           "name": "card-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-3"
         },
         {
-          "path": "cards/card-4",
           "name": "card-4",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-4/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-4"
         },
         {
-          "path": "cards/card-7",
           "name": "card-7",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-7/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-7"
         },
         {
-          "path": "cards/card-8",
           "name": "card-8",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-8/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-8"
         },
         {
-          "path": "cards/card-9",
           "name": "card-9",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-9/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-9"
@@ -64,7 +56,6 @@
       ],
       "carousels": [
         {
-          "path": "carousels/carousel-2",
           "name": "carousel-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/carousels/carousel-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/carousels/carousel-2"
@@ -72,7 +63,6 @@
       ],
       "dashboards": [
         {
-          "path": "dashboards/dashboard-1",
           "name": "dashboard-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/dashboards/dashboard-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/dashboards/dashboard-1"
@@ -80,19 +70,16 @@
       ],
       "dropdowns": [
         {
-          "path": "dropdowns/dropdown-1",
           "name": "dropdown-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/dropdowns/dropdown-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/dropdowns/dropdown-1"
         },
         {
-          "path": "dropdowns/dropdown-2",
           "name": "dropdown-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/dropdowns/dropdown-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/dropdowns/dropdown-2"
         },
         {
-          "path": "dropdowns/dropdown-3",
           "name": "dropdown-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/dropdowns/dropdown-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/dropdowns/dropdown-3"
@@ -100,79 +87,66 @@
       ],
       "footers": [
         {
-          "path": "footers/footer-1",
           "name": "footer-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-1"
         },
         {
-          "path": "footers/footer-10",
           "name": "footer-10",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-10/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-10"
         },
         {
-          "path": "footers/footer-11",
           "name": "footer-11",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-11/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-11"
         },
         {
-          "path": "footers/footer-12",
           "name": "footer-12",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-12/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-12"
         },
         {
-          "path": "footers/footer-13",
           "name": "footer-13",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-13/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-13"
         },
         {
-          "path": "footers/footer-2",
           "name": "footer-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-2"
         },
         {
-          "path": "footers/footer-3",
           "name": "footer-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-3"
         },
         {
-          "path": "footers/footer-4",
           "name": "footer-4",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-4/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-4"
         },
         {
-          "path": "footers/footer-5",
           "name": "footer-5",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-5/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-5"
         },
         {
-          "path": "footers/footer-6",
           "name": "footer-6",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-6/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-6"
         },
         {
-          "path": "footers/footer-7",
           "name": "footer-7",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-7/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-7"
         },
         {
-          "path": "footers/footer-8",
           "name": "footer-8",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-8/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-8"
         },
         {
-          "path": "footers/footer-9",
           "name": "footer-9",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/footers/footer-9/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/footers/footer-9"
@@ -180,85 +154,71 @@
       ],
       "logins": [
         {
-          "path": "logins/login-1",
           "name": "login-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-1"
         },
         {
-          "path": "logins/login-10",
           "name": "login-10",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-10/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-10"
         },
         {
-          "path": "logins/login-12",
           "name": "login-12",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-12/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-12"
         },
         {
-          "path": "logins/login-15",
           "name": "login-15",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-15/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-15"
         },
         {
-          "path": "logins/login-16",
           "name": "login-16",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-16/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-16"
         },
         {
-          "path": "logins/login-17",
           "name": "login-17",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-17/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-17"
         },
         {
-          "path": "logins/login-2",
           "name": "login-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-2"
         },
         {
-          "path": "logins/login-3",
           "name": "login-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-3"
         },
         {
-          "path": "logins/login-4",
           "name": "login-4",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-4/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-4"
         },
         {
-          "path": "logins/login-5",
           "name": "login-5",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-5/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-5"
         },
         {
-          "path": "logins/login-6",
           "name": "login-6",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-6/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-6"
         },
         {
-          "path": "logins/login-7",
           "name": "login-7",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-7/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-7"
         },
         {
-          "path": "logins/login-8",
           "name": "login-8",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-8/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-8"
         },
         {
-          "path": "logins/login-9",
           "name": "login-9",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/logins/login-9/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/logins/login-9"
@@ -266,19 +226,16 @@
       ],
       "menus": [
         {
-          "path": "menus/menu-1",
           "name": "menu-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/menus/menu-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/menus/menu-1"
         },
         {
-          "path": "menus/menu-2",
           "name": "menu-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/menus/menu-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/menus/menu-2"
         },
         {
-          "path": "menus/menu-3",
           "name": "menu-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/menus/menu-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/menus/menu-3"
@@ -286,43 +243,36 @@
       ],
       "navbars": [
         {
-          "path": "navbars/navbar-1",
           "name": "navbar-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/navbars/navbar-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/navbars/navbar-1"
         },
         {
-          "path": "navbars/navbar-2",
           "name": "navbar-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/navbars/navbar-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/navbars/navbar-2"
         },
         {
-          "path": "navbars/navbar-3",
           "name": "navbar-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/navbars/navbar-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/navbars/navbar-3"
         },
         {
-          "path": "navbars/navbar-4",
           "name": "navbar-4",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/navbars/navbar-4/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/navbars/navbar-4"
         },
         {
-          "path": "navbars/navbar-5",
           "name": "navbar-5",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/navbars/navbar-5/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/navbars/navbar-5"
         },
         {
-          "path": "navbars/navbar-6",
           "name": "navbar-6",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/navbars/navbar-6/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/navbars/navbar-6"
         },
         {
-          "path": "navbars/navbar-7",
           "name": "navbar-7",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/navbars/navbar-7/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/navbars/navbar-7"
@@ -330,13 +280,11 @@
       ],
       "parallax": [
         {
-          "path": "parallax/parallax-1",
           "name": "parallax-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/parallax/parallax-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/parallax/parallax-1"
         },
         {
-          "path": "parallax/parallax-2",
           "name": "parallax-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/parallax/parallax-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/parallax/parallax-2"
@@ -344,49 +292,41 @@
       ],
       "sidebars": [
         {
-          "path": "sidebars/sidebar-1",
           "name": "sidebar-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-1"
         },
         {
-          "path": "sidebars/sidebar-2",
           "name": "sidebar-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-2"
         },
         {
-          "path": "sidebars/sidebar-3",
           "name": "sidebar-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-3"
         },
         {
-          "path": "sidebars/sidebar-4",
           "name": "sidebar-4",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-4/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-4"
         },
         {
-          "path": "sidebars/sidebar-5",
           "name": "sidebar-5",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-5/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-5"
         },
         {
-          "path": "sidebars/sidebar-6",
           "name": "sidebar-6",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-6/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-6"
         },
         {
-          "path": "sidebars/sidebar-7",
           "name": "sidebar-7",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-7/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-7"
         },
         {
-          "path": "sidebars/sidebar-8",
           "name": "sidebar-8",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/sidebars/sidebar-8/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/sidebars/sidebar-8"
@@ -394,25 +334,21 @@
       ],
       "signups": [
         {
-          "path": "signups/signup-1",
           "name": "signup-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/signups/signup-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/signups/signup-1"
         },
         {
-          "path": "signups/signup-2",
           "name": "signup-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/signups/signup-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/signups/signup-2"
         },
         {
-          "path": "signups/signup-3",
           "name": "signup-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/signups/signup-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/signups/signup-3"
         },
         {
-          "path": "signups/signup-4",
           "name": "signup-4",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/signups/signup-4/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/signups/signup-4"
@@ -420,7 +356,6 @@
       ],
       "tricks": [
         {
-          "path": "tricks/sticky-sidebar",
           "name": "sticky-sidebar",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/tricks/sticky-sidebar/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/tricks/sticky-sidebar"
@@ -428,7 +363,6 @@
       ],
       "widgets": [
         {
-          "path": "widgets/widget-1",
           "name": "widget-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/widgets/widget-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/widgets/widget-1"
@@ -440,22 +374,20 @@
     "repo": "css-reels",
     "owner": "frontend-joe",
     "branch": "main",
+    "sha": "e15fb0c5ef25605d3a97309590a3e22531a53d5f",
     "components": {
       "burgers": [
         {
-          "path": "burgers/part-1",
           "name": "part-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/burgers/part-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/burgers/part-1"
         },
         {
-          "path": "burgers/part-2",
           "name": "part-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/burgers/part-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/burgers/part-2"
         },
         {
-          "path": "burgers/part-3",
           "name": "part-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/burgers/part-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/burgers/part-3"
@@ -463,25 +395,21 @@
       ],
       "buttons": [
         {
-          "path": "buttons/part-1",
           "name": "part-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/buttons/part-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/buttons/part-1"
         },
         {
-          "path": "buttons/part-2",
           "name": "part-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/buttons/part-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/buttons/part-2"
         },
         {
-          "path": "buttons/part-3",
           "name": "part-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/buttons/part-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/buttons/part-3"
         },
         {
-          "path": "buttons/part-4",
           "name": "part-4",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/buttons/part-4/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/buttons/part-4"
@@ -489,25 +417,21 @@
       ],
       "checkboxes": [
         {
-          "path": "checkboxes/part-1",
           "name": "part-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/checkboxes/part-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/checkboxes/part-1"
         },
         {
-          "path": "checkboxes/part-2",
           "name": "part-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/checkboxes/part-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/checkboxes/part-2"
         },
         {
-          "path": "checkboxes/part-3",
           "name": "part-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/checkboxes/part-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/checkboxes/part-3"
         },
         {
-          "path": "checkboxes/part-4",
           "name": "part-4",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/checkboxes/part-4/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/checkboxes/part-4"
@@ -515,7 +439,6 @@
       ],
       "dropdowns": [
         {
-          "path": "dropdowns/part-1",
           "name": "part-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/dropdowns/part-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/dropdowns/part-1"
@@ -523,31 +446,26 @@
       ],
       "examples": [
         {
-          "path": "examples/child-selectors",
           "name": "child-selectors",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/examples/child-selectors/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/examples/child-selectors"
         },
         {
-          "path": "examples/filter-property",
           "name": "filter-property",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/examples/filter-property/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/examples/filter-property"
         },
         {
-          "path": "examples/timing-function-2",
           "name": "timing-function-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/examples/timing-function-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/examples/timing-function-2"
         },
         {
-          "path": "examples/timing-function",
           "name": "timing-function",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/examples/timing-function/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/examples/timing-function"
         },
         {
-          "path": "examples/transforms",
           "name": "transforms",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/examples/transforms/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/examples/transforms"
@@ -555,13 +473,11 @@
       ],
       "inputs": [
         {
-          "path": "inputs/part-1",
           "name": "part-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/inputs/part-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/inputs/part-1"
         },
         {
-          "path": "inputs/part-2",
           "name": "part-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/inputs/part-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/inputs/part-2"
@@ -569,43 +485,36 @@
       ],
       "loaders": [
         {
-          "path": "loaders/part-3",
           "name": "part-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-3"
         },
         {
-          "path": "loaders/part-4",
           "name": "part-4",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-4/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-4"
         },
         {
-          "path": "loaders/part-5",
           "name": "part-5",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-5/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-5"
         },
         {
-          "path": "loaders/part-6",
           "name": "part-6",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-6/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-6"
         },
         {
-          "path": "loaders/part-7",
           "name": "part-7",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-7/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-7"
         },
         {
-          "path": "loaders/part-8",
           "name": "part-8",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-8/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-8"
         },
         {
-          "path": "loaders/part-9",
           "name": "part-9",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/loaders/part-9/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/loaders/part-9"
@@ -613,7 +522,6 @@
       ],
       "menus": [
         {
-          "path": "menus/part-1",
           "name": "part-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/menus/part-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/menus/part-1"
@@ -621,7 +529,6 @@
       ],
       "modals": [
         {
-          "path": "modals/part-1",
           "name": "part-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/modals/part-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/modals/part-1"
@@ -629,7 +536,6 @@
       ],
       "svgs": [
         {
-          "path": "svgs/part-3",
           "name": "part-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/svgs/part-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/svgs/part-3"
@@ -637,19 +543,16 @@
       ],
       "switches": [
         {
-          "path": "switches/part-1",
           "name": "part-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/switches/part-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/switches/part-1"
         },
         {
-          "path": "switches/part-2",
           "name": "part-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/switches/part-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/switches/part-2"
         },
         {
-          "path": "switches/part-4",
           "name": "part-4",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/switches/part-4/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/switches/part-4"
@@ -657,7 +560,6 @@
       ],
       "tooltips": [
         {
-          "path": "tooltips/part-1",
           "name": "part-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-reels/main/tooltips/part-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-reels/tree/main/tooltips/part-1"
@@ -669,10 +571,10 @@
     "repo": "js-components",
     "owner": "frontend-joe",
     "branch": "main",
+    "sha": "bfa7b65dbb217f68d14acf23ebaad9385f00af4b",
     "components": {
       "banners": [
         {
-          "path": "banners/banner-1",
           "name": "banner-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/banners/banner-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/banners/banner-1"
@@ -680,13 +582,11 @@
       ],
       "carousels": [
         {
-          "path": "carousels/carousel-1",
           "name": "carousel-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/carousels/carousel-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/carousels/carousel-1"
         },
         {
-          "path": "carousels/carousel-2",
           "name": "carousel-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/carousels/carousel-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/carousels/carousel-2"
@@ -694,25 +594,21 @@
       ],
       "controls": [
         {
-          "path": "controls/control-1",
           "name": "control-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/controls/control-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/controls/control-1"
         },
         {
-          "path": "controls/control-2",
           "name": "control-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/controls/control-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/controls/control-2"
         },
         {
-          "path": "controls/control-3",
           "name": "control-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/controls/control-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/controls/control-3"
         },
         {
-          "path": "controls/control-4",
           "name": "control-4",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/controls/control-4/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/controls/control-4"
@@ -720,13 +616,11 @@
       ],
       "gsap": [
         {
-          "path": "gsap/gsap-1",
           "name": "gsap-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/gsap/gsap-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/gsap/gsap-1"
         },
         {
-          "path": "gsap/gsap-2",
           "name": "gsap-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/gsap/gsap-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/gsap/gsap-2"
@@ -734,49 +628,41 @@
       ],
       "logins": [
         {
-          "path": "logins/login-1",
           "name": "login-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-1"
         },
         {
-          "path": "logins/login-2",
           "name": "login-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-2"
         },
         {
-          "path": "logins/login-3",
           "name": "login-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-3"
         },
         {
-          "path": "logins/login-4",
           "name": "login-4",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-4/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-4"
         },
         {
-          "path": "logins/login-5",
           "name": "login-5",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-5/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-5"
         },
         {
-          "path": "logins/login-6",
           "name": "login-6",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-6/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-6"
         },
         {
-          "path": "logins/login-7",
           "name": "login-7",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-7/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-7"
         },
         {
-          "path": "logins/login-8",
           "name": "login-8",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/logins/login-8/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/logins/login-8"
@@ -784,7 +670,6 @@
       ],
       "modals": [
         {
-          "path": "modals/modal-1",
           "name": "modal-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/modals/modal-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/modals/modal-1"
@@ -792,7 +677,6 @@
       ],
       "navbars": [
         {
-          "path": "navbars/navbar-1",
           "name": "navbar-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/navbars/navbar-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/navbars/navbar-1"
@@ -800,49 +684,41 @@
       ],
       "sidebars": [
         {
-          "path": "sidebars/sidebar-1",
           "name": "sidebar-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-1"
         },
         {
-          "path": "sidebars/sidebar-2",
           "name": "sidebar-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-2"
         },
         {
-          "path": "sidebars/sidebar-3",
           "name": "sidebar-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-3"
         },
         {
-          "path": "sidebars/sidebar-5",
           "name": "sidebar-5",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-5/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-5"
         },
         {
-          "path": "sidebars/sidebar-6",
           "name": "sidebar-6",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-6/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-6"
         },
         {
-          "path": "sidebars/sidebar-7",
           "name": "sidebar-7",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-7/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-7"
         },
         {
-          "path": "sidebars/sidebar-8",
           "name": "sidebar-8",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-8/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-8"
         },
         {
-          "path": "sidebars/sidebar-9",
           "name": "sidebar-9",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-9/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-9"
@@ -850,7 +726,6 @@
       ],
       "sliders": [
         {
-          "path": "sliders/slider-1",
           "name": "slider-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sliders/slider-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sliders/slider-1"
@@ -858,7 +733,6 @@
       ],
       "tables": [
         {
-          "path": "tables/table-1",
           "name": "table-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/tables/table-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/tables/table-1"
@@ -866,7 +740,6 @@
       ],
       "widgets": [
         {
-          "path": "widgets/widget-1",
           "name": "widget-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/widgets/widget-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/widgets/widget-1"
@@ -878,10 +751,10 @@
     "repo": "es6-components",
     "owner": "frontend-joe",
     "branch": "main",
+    "sha": "6cab0154496432d81b1a1c08500b57c3dfcf12d0",
     "components": {
       "accordions": [
         {
-          "path": "accordions/accordion-1",
           "name": "accordion-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/accordions/accordion-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/accordions/accordion-1"
@@ -889,7 +762,6 @@
       ],
       "banners": [
         {
-          "path": "banners/banner-1",
           "name": "banner-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/banners/banner-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/banners/banner-1"
@@ -897,7 +769,6 @@
       ],
       "cards": [
         {
-          "path": "cards/card-1",
           "name": "card-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/cards/card-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/cards/card-1"
@@ -905,19 +776,16 @@
       ],
       "carousels": [
         {
-          "path": "carousels/carousel-1",
           "name": "carousel-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/carousels/carousel-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/carousels/carousel-1"
         },
         {
-          "path": "carousels/carousel-2",
           "name": "carousel-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/carousels/carousel-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/carousels/carousel-2"
         },
         {
-          "path": "carousels/carousel-3",
           "name": "carousel-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/carousels/carousel-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/carousels/carousel-3"
@@ -925,7 +793,6 @@
       ],
       "controls": [
         {
-          "path": "controls/control-1",
           "name": "control-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/controls/control-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/controls/control-1"
@@ -933,7 +800,6 @@
       ],
       "dropdowns": [
         {
-          "path": "dropdowns/dropdown-1",
           "name": "dropdown-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/dropdowns/dropdown-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/dropdowns/dropdown-1"
@@ -941,7 +807,6 @@
       ],
       "gsap": [
         {
-          "path": "gsap/scroll-progress",
           "name": "scroll-progress",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/gsap/scroll-progress/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/gsap/scroll-progress"
@@ -949,25 +814,21 @@
       ],
       "libraries": [
         {
-          "path": "libraries/atropos-js",
           "name": "atropos-js",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/libraries/atropos-js/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/libraries/atropos-js"
         },
         {
-          "path": "libraries/no-ui-slider-js",
           "name": "no-ui-slider-js",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/libraries/no-ui-slider-js/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/libraries/no-ui-slider-js"
         },
         {
-          "path": "libraries/paroller-js",
           "name": "paroller-js",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/libraries/paroller-js/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/libraries/paroller-js"
         },
         {
-          "path": "libraries/ukiyo-lenis",
           "name": "ukiyo-lenis",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/libraries/ukiyo-lenis/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/libraries/ukiyo-lenis"
@@ -975,7 +836,6 @@
       ],
       "menus": [
         {
-          "path": "menus/menu-1",
           "name": "menu-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/menus/menu-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/menus/menu-1"
@@ -983,13 +843,11 @@
       ],
       "navbars": [
         {
-          "path": "navbars/navbar-1",
           "name": "navbar-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/navbars/navbar-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/navbars/navbar-1"
         },
         {
-          "path": "navbars/navbar-2",
           "name": "navbar-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/navbars/navbar-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/navbars/navbar-2"
@@ -997,13 +855,11 @@
       ],
       "parallax": [
         {
-          "path": "parallax/parallax-1",
           "name": "parallax-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/parallax/parallax-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/parallax/parallax-1"
         },
         {
-          "path": "parallax/parallax-2",
           "name": "parallax-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/parallax/parallax-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/parallax/parallax-2"
@@ -1011,7 +867,6 @@
       ],
       "scrolling": [
         {
-          "path": "scrolling/scrolling-1",
           "name": "scrolling-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/scrolling/scrolling-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/scrolling/scrolling-1"
@@ -1019,13 +874,11 @@
       ],
       "sidebars": [
         {
-          "path": "sidebars/sidebar-1",
           "name": "sidebar-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/sidebars/sidebar-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/sidebars/sidebar-1"
         },
         {
-          "path": "sidebars/sidebar-2",
           "name": "sidebar-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/sidebars/sidebar-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/sidebars/sidebar-2"
@@ -1033,7 +886,6 @@
       ],
       "signups": [
         {
-          "path": "signups/signup-1",
           "name": "signup-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/signups/signup-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/signups/signup-1"
@@ -1041,19 +893,16 @@
       ],
       "tables": [
         {
-          "path": "tables/table-1",
           "name": "table-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/tables/table-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/tables/table-1"
         },
         {
-          "path": "tables/table-2",
           "name": "table-2",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/tables/table-2/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/tables/table-2"
         },
         {
-          "path": "tables/table-3",
           "name": "table-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/es6-components/main/tables/table-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/es6-components/tree/main/tables/table-3"

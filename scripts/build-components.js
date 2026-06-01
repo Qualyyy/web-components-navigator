@@ -9,16 +9,9 @@ async function buildComponentIndex() {
 
     const allComponents = [];
 
-    for (const { owner, repo, branch } of repos) {
+    for (const { owner, repo, branch, sha } of repos) {
         console.log(`📂 Checking ${owner}/${repo} (${branch} branch)...`);
         try {
-            const repoObject = {};
-            repoObject.repo = repo;
-            repoObject.owner = owner;
-            repoObject.branch = branch;
-            repoObject.components = {};
-
-            // Ask GitHub for all files in this repository
             const treeUrl = `https://api.github.com/repos/${owner}/${repo}/git/trees/${branch}?recursive=1`;
 
             const response = await fetch(treeUrl, {
@@ -33,6 +26,13 @@ async function buildComponentIndex() {
             }
 
             const data = await response.json();
+
+            const repoObject = {};
+            repoObject.repo = repo;
+            repoObject.owner = owner;
+            repoObject.branch = branch;
+            repoObject.sha = data.sha;
+            repoObject.components = {};
 
             // Find all index.html files
             const indexFiles = data.tree.filter(item =>
@@ -52,7 +52,6 @@ async function buildComponentIndex() {
                 }
 
                 repoObject.components[categoryName].push({
-                    path: componentPath,
                     name: componentName,
                     previewUrl: `https://component-proxy.qualyj.workers.dev/${owner}/${repo}/${branch}/${file.path}`,
                     sourceUrl: `https://github.com/${owner}/${repo}/tree/${branch}/${componentPath}`

@@ -7,7 +7,7 @@ function init() {
 
 function toggleRepo(e) {
     const $clickedRepo = e.target.closest(".repo-container");
-    if ($clickedRepo && !e.target.closest("a")) {
+    if ($clickedRepo && !e.target.closest("a") && e.target.closest(".repo-header")) {
         if ($clickedRepo.classList.contains("active")) {
             $clickedRepo.classList.remove("active");
         } else {
@@ -16,31 +16,27 @@ function toggleRepo(e) {
     }
 }
 
-async function createRepoDiv(owner, repo) {
+async function createRepoDiv(repo) {
     const foldersDiv = document.getElementById("folders");
 
     const $template = document.querySelector("#template--repo");
     const $clone = document.importNode($template.content, true);
     const $container = $clone.firstElementChild;
 
-    $container.id = (owner + "-" + repo);
-    $container.dataset.owner = owner;
+    $container.dataset.sha = repo.sha;
+    $container.dataset.owner = repo.owner;
 
-    $container.querySelector(".repo-link").href = `https://github.com/${owner}/${repo}`;
-    $container.querySelector(".repo-name").textContent = repo.replaceAll("-", " ");
-    $container.querySelector(".repo-owner").textContent = owner.replaceAll("-", " ");
-
-
-    $container.querySelector(".repo-categories").id = (owner + "-" + repo + "-categories-container");
+    $container.querySelector(".repo-link").href = `https://github.com/${repo.owner}/${repo.repo}`;
+    $container.querySelector(".repo-name").textContent = repo.repo.replaceAll("-", " ");
+    $container.querySelector(".repo-owner").textContent = repo.owner.replaceAll("-", " ");
 
     foldersDiv.appendChild($clone);
 }
 
-async function processRepo(owner, repo, components) {
-    const categoriesContainer = document.getElementById(owner + "-" + repo + "-categories-container");
-
+async function processRepo(repo) {
+    const categoriesContainer = document.querySelector(`[data-sha="${repo.sha}"] .repo-categories`);
     try {
-        if (!components || Object.keys(components).length === 0) {
+        if (!repo.components || Object.keys(repo.components).length === 0) {
             categoriesContainer.textContent = "No components found.";
             return;
         }
@@ -48,11 +44,11 @@ async function processRepo(owner, repo, components) {
         categoriesContainer.textContent = "";
 
         // Process each category in this repo
-        for ([categoryName, componentList] of Object.entries(components)) {
+        for ([categoryName, componentList] of Object.entries(repo.components)) {
             // Create or find folder container for this category
             let folderContainer;
             let buttonsContainer;
-            const folderId = (owner + "-" + repo + "-" + categoryName).replaceAll(" ", "-");
+            const folderId = (repo.owner + "-" + repo.name + "-" + categoryName).replaceAll(" ", "-");
             const buttonsId = folderId + "-buttons";
 
             if (document.getElementById(folderId)) {
@@ -113,12 +109,12 @@ async function fetchAllRepos() {
 
         // Create repo divs first
         for (const repo of repos) {
-            await createRepoDiv(repo.owner, repo.repo);
+            await createRepoDiv(repo);
         }
 
         // Then process each repo with its components
         for (const repo of repos) {
-            await processRepo(repo.owner, repo.repo, repo.components);
+            await processRepo(repo);
         }
 
     } catch (error) {
