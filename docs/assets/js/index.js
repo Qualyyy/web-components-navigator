@@ -1,4 +1,5 @@
 import "./filter.js";
+import * as RENDERER from "./renderer.js";
 import "./theme.js";
 
 function init() {
@@ -18,66 +19,21 @@ function toggleRepo(e) {
     }
 }
 
-async function createRepoDiv(repo) {
-    const foldersDiv = document.getElementById("folders");
+async function loadRepos(repos) {
+    const $reposContainer = document.querySelector("#repos");
 
-    const $template = document.querySelector("#template--repo");
-    const $clone = document.importNode($template.content, true);
-    const $container = $clone.firstElementChild;
+    RENDERER.renderRepos(repos, $reposContainer);
 
-    $container.dataset.sha = repo.sha;
-    $container.dataset.owner = repo.owner;
-
-    $container.querySelector(".repo-link").href = repo.url;
-    $container.querySelector(".repo-name").textContent = repo.repo.replaceAll("-", " ");
-    $container.querySelector(".repo-owner").textContent = repo.owner.replaceAll("-", " ");
-
-    foldersDiv.appendChild($clone);
 }
 
 async function processRepo(repo) {
     const $categoriesContainer = document.querySelector(`[data-sha="${repo.sha}"] .repo-categories`);
-    try {
-        if (!repo.components || Object.keys(repo.components).length === 0) {
-            $categoriesContainer.textContent = "No components found.";
-            return;
-        }
-        $categoriesContainer.textContent = "";
 
-        for (const category in repo.components) {
-
-            let $categoryContainer = $categoriesContainer.querySelector(`[data-category=${category}]`);
-            if (!$categoryContainer) {
-                const $categoryTemplate = document.querySelector("#template--category");
-                const $clone = document.importNode($categoryTemplate.content, true);
-                const $container = $clone.firstElementChild;
-                $container.dataset.category = category;
-                $container.querySelector(".category-name").textContent = category;
-
-                $categoryContainer = $container;
-                $categoriesContainer.appendChild($clone);
-            }
-
-            const $fragment = document.createDocumentFragment();
-            const $template = document.querySelector("#template--component");
-
-            for (const component of repo.components[category]) {
-                const $clone = $template.content.cloneNode(true);
-
-                $clone.querySelector(".btn-source-code").href = component.sourceUrl;
-                $clone.querySelector(".btn-preview").href = component.previewUrl;
-                $clone.querySelector(".btn-preview").textContent = component.name;
-
-                $fragment.appendChild($clone);
-            }
-
-            $categoryContainer.querySelector(".components").appendChild($fragment);
-        };
-
-    } catch (error) {
-        console.error("Error loading components:", error);
-        $categoriesContainer.textContent = "Error: " + error.message;
+    if (!repo.components || Object.keys(repo.components).length === 0) {
+        $categoriesContainer.textContent = "No components found.";
+        return;
     }
+    RENDERER.renderCategories(repo, $categoriesContainer);
 }
 
 async function fetchAllRepos() {
@@ -86,18 +42,15 @@ async function fetchAllRepos() {
         if (!response.ok) throw new Error("Failed to load components.json");
         const repos = await response.json();
 
-        for (const repo of repos) {
-            await createRepoDiv(repo);
-        }
-
-        for (const repo of repos) {
-            await processRepo(repo);
-        }
+        const startTime = performance.now();
+        loadRepos(repos);
+        const endTime = performance.now();
+        console.log(`Call to doSomething took ${endTime - startTime} milliseconds`);
 
     } catch (error) {
         console.error("Error loading components:", error);
-        const foldersDiv = document.getElementById("folders");
-        foldersDiv.innerHTML = `
+        const reposDiv = document.getElementById("repos");
+        reposDiv.innerHTML = `
             <div style="text-align: center; padding: 2rem; color: red;">
                 <h3>Failed to load components</h3>
                 <p>${error.message}</p>
