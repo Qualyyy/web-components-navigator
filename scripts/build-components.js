@@ -31,6 +31,7 @@ async function buildComponentIndex() {
             repoObject.repo = repo;
             repoObject.owner = owner;
             repoObject.branch = branch;
+            repoObject.url = `https://github.com/${owner}/${repo}`;
             repoObject.sha = data.sha;
             repoObject.components = {};
 

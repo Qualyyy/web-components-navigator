@@ -27,3 +27,5 @@ function updateThemeIcon() {
     const isDark = document.documentElement.classList.contains('dark');
     themeIcon.src = isDark ? 'assets/media/moon.svg' : 'assets/media/sun.svg';
 }
+
+init();

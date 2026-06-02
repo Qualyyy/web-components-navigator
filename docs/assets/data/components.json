@@ -3,6 +3,7 @@
     "repo": "css-components",
     "owner": "frontend-joe",
     "branch": "main",
+    "url": "https://github.com/frontend-joe/css-components",
     "sha": "e2d5d981c26c454b473121b7803f90e59a4eede2",
     "components": {
       "accordions": [
@@ -374,6 +375,7 @@
     "repo": "css-reels",
     "owner": "frontend-joe",
     "branch": "main",
+    "url": "https://github.com/frontend-joe/css-reels",
     "sha": "e15fb0c5ef25605d3a97309590a3e22531a53d5f",
     "components": {
       "burgers": [
@@ -571,6 +573,7 @@
     "repo": "js-components",
     "owner": "frontend-joe",
     "branch": "main",
+    "url": "https://github.com/frontend-joe/js-components",
     "sha": "bfa7b65dbb217f68d14acf23ebaad9385f00af4b",
     "components": {
       "banners": [
@@ -751,6 +754,7 @@
     "repo": "es6-components",
     "owner": "frontend-joe",
     "branch": "main",
+    "url": "https://github.com/frontend-joe/es6-components",
     "sha": "6cab0154496432d81b1a1c08500b57c3dfcf12d0",
     "components": {
       "accordions": [

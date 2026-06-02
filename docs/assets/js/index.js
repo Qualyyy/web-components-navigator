@@ -1,9 +1,7 @@
-import * as FILTER from "./filter.js";
-import * as THEME from "./theme.js";
+import "./filter.js";
+import "./theme.js";
 
 function init() {
-    FILTER.init();
-    THEME.init();
     document.querySelector("#content").addEventListener("click", toggleRepo);
 
     fetchAllRepos();
@@ -30,7 +28,7 @@ async function createRepoDiv(repo) {
     $container.dataset.sha = repo.sha;
     $container.dataset.owner = repo.owner;
 
-    $container.querySelector(".repo-link").href = `https://github.com/${repo.owner}/${repo.repo}`;
+    $container.querySelector(".repo-link").href = repo.url;
     $container.querySelector(".repo-name").textContent = repo.repo.replaceAll("-", " ");
     $container.querySelector(".repo-owner").textContent = repo.owner.replaceAll("-", " ");
 
@@ -77,6 +75,7 @@ async function processRepo(repo) {
         };
 
     } catch (error) {
+        console.error("Error loading components:", error);
         $categoriesContainer.textContent = "Error: " + error.message;
     }
 }
@@ -102,7 +101,6 @@ async function fetchAllRepos() {
             <div style="text-align: center; padding: 2rem; color: red;">
                 <h3>Failed to load components</h3>
                 <p>${error.message}</p>
-                <p>Make sure you"ve run: <code>npm run build-components</code></p>
             </div>
         `;
     }

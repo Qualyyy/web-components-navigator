@@ -82,3 +82,5 @@ async function addAllFilters() {
         console.error('Error loading components:', error);
     }
 }
+
+init();
