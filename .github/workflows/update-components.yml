@@ -6,6 +6,8 @@ on:
     - cron: "0 0 * * *" # Every 24 hours
   workflow_dispatch: # Allow manual triggering
   push:
+    branches:
+      - main
     paths:
       - "data/repos.json" # Also run when repos.json changes
       - "scripts/build-components.js" # Also run when build-components.js changes
@@ -53,7 +55,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add docs/components.json
+          git add docs/assets/data/components.json
           git commit -m "🤖 Auto-update: New changes detected"
           git push
 
