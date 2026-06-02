@@ -42,7 +42,7 @@ jobs:
       - name: Check for changes
         id: verify-changed-files
         run: |
-          if git diff --quiet docs/components.json; then
+          if git diff --quiet docs/assets/data/components.json; then
             echo "No changes detected"
             echo "changed=false" >> $GITHUB_OUTPUT
           else

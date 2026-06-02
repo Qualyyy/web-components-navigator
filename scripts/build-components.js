@@ -78,7 +78,7 @@ async function buildComponentIndex() {
     );
 
     console.log(`✅ Discovery complete! Found ${allComponents.length} total components`);
-    console.log(`📄 Component list saved to docs/components.json`);
+    console.log(`📄 Component list saved to docs/assets/data/components.json`);
 }
 
 // Run the script
