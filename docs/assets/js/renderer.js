@@ -10,6 +10,7 @@ export function renderRepos(repos, $container) {
     const $template = TEMPLATES.repo;
 
     for (const repo of repos) {
+
         const $clone = $template.content.cloneNode(true);
         const $root = $clone.firstElementChild;
 
@@ -17,11 +18,16 @@ export function renderRepos(repos, $container) {
         $root.dataset.owner = repo.owner;
 
         $root.querySelector(".repo-link").href = repo.url;
-        $root.querySelector(".repo-name").textContent = repo.repo.replaceAll("-", " ");
-        $root.querySelector(".repo-owner").textContent = repo.owner.replaceAll("-", " ");
+        $root.querySelector(".repo-name").textContent = format(repo.repo);
+        $root.querySelector(".repo-owner").textContent = format(repo.owner);
 
         const $categoriesContainer = $root.querySelector(".repo-categories");
-        renderCategories(repo.components, $categoriesContainer);
+        try {
+            renderCategories(repo.components, $categoriesContainer);
+        } catch (error) {
+            console.error("Category render failed:", error);
+            $categoriesContainer.textContent = error.message;
+        }
 
         $fragment.appendChild($clone);
     }
@@ -29,6 +35,9 @@ export function renderRepos(repos, $container) {
 }
 
 function renderCategories(categories, $container) {
+    if (!categories || Object.keys(categories).length === 0)
+        throw new Error("No components found.");
+
     $container.textContent = "";
     const $fragment = document.createDocumentFragment();
     const $template = TEMPLATES.category;
@@ -41,8 +50,12 @@ function renderCategories(categories, $container) {
         $root.querySelector(".category-name").textContent = category;
 
         const $componentsContainer = $root.querySelector(".components");
-        renderComponents(components, $componentsContainer);
-
+        try {
+            renderComponents(components, $componentsContainer);
+        } catch (error) {
+            console.error("Component render failed:", error);
+            $componentsContainer.textContent = error.message;
+        }
         $fragment.appendChild($clone);
     };
     $container.appendChild($fragment);
@@ -59,9 +72,13 @@ function renderComponents(components, $container) {
 
         $root.querySelector(".btn-source-code").href = component.sourceUrl;
         $root.querySelector(".btn-preview").href = component.previewUrl;
-        $root.querySelector(".btn-preview").textContent = component.name;
+        $root.querySelector(".btn-preview").textContent = format(component.name);
 
         $fragment.appendChild($clone);
     }
     $container.appendChild($fragment);
+}
+
+function format(input) {
+    return input.replaceAll("-", " ");
 }

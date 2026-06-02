@@ -22,18 +22,12 @@ function toggleRepo(e) {
 async function loadRepos(repos) {
     const $reposContainer = document.querySelector("#repos");
 
-    RENDERER.renderRepos(repos, $reposContainer);
-
-}
-
-async function processRepo(repo) {
-    const $categoriesContainer = document.querySelector(`[data-sha="${repo.sha}"] .repo-categories`);
-
-    if (!repo.components || Object.keys(repo.components).length === 0) {
-        $categoriesContainer.textContent = "No components found.";
-        return;
+    try {
+        RENDERER.renderRepos(repos, $reposContainer);
+    } catch (error) {
+        $reposContainer.textContent = error.message;
     }
-    RENDERER.renderCategories(repo, $categoriesContainer);
+
 }
 
 async function fetchAllRepos() {
@@ -45,7 +39,7 @@ async function fetchAllRepos() {
         const startTime = performance.now();
         loadRepos(repos);
         const endTime = performance.now();
-        console.log(`Call to doSomething took ${endTime - startTime} milliseconds`);
+        console.log(`Loading all components took ${endTime - startTime} milliseconds`);
 
     } catch (error) {
         console.error("Error loading components:", error);
