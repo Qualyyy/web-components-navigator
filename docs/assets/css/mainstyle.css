@@ -203,7 +203,7 @@ body {
     direction: ltr;
 }
 
-.filter-section h3 + * {
+.filter-section ul {
     list-style: none;
     padding-left: .5rem;
     border-left: 2px solid var(--primary);

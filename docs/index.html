@@ -4,11 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/mainstyle.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/media-queries.css">
-	<script defer src="assets/js/index.js" type="module"></script>
+	<script src="assets/js/index.js" type="module"></script>
 	<link rel="shortcut icon" href="assets/media/favicon-filled.webp" type="image/x-icon">
 	<title>Web Components Navigator</title>
 </head>
@@ -27,7 +27,7 @@
 		<aside class="sidebar">
 			<div class="filters-sidebar card">
 				<section class="filter-section filter-section-time" style="display: none;">
-					<h3>Time</h3>
+					<h2>Time</h2>
 					<div>
 						<small>Added</small>
 						<input type="number" name="time-amount" id="time-amount" placeholder="0" min="0" max="99">
@@ -41,12 +41,12 @@
 					</div>
 				</section>
 				<section class="filter-section" style="display: none;"> <!-- Currently only 1 owner -->
-					<h3>Owners</h3>
+					<h2>Owners</h2>
 					<ul id="filter-list-owner">
 					</ul>
 				</section>
 				<section class="filter-section">
-					<h3>Categories</h3>
+					<h2>Categories</h2>
 					<ul id="filter-list-category">
 					</ul>
 				</section>
@@ -66,7 +66,7 @@
 					<span class="repo-owner">-</span>
 				</h2>
 			</header>
-			<main class="repo-categories">Loading...</main>
+			<div class="repo-categories">Loading...</div>
 		</div>
 	</template>
 	<template id="template--category">
