@@ -101,11 +101,15 @@ small,
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     color: var(--text);
     font-family: var(--ff);
+}
+
+.hidden {
+    display: none !important;
 }
 
 a {
