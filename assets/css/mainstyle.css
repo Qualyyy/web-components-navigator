@@ -75,11 +75,13 @@ h4 {
 p,
 a,
 input,
-label {
+label,
+select {
     font: var(--p);
 }
 
-small {
+small,
+.filter-section-time div * {
     font: var(--small);
 }
 
@@ -103,6 +105,7 @@ small {
     padding: 0px;
     box-sizing: border-box;
     color: var(--text);
+    font-family: var(--ff);
 }
 
 a {
@@ -119,7 +122,7 @@ body {
     grid-template-rows: auto 1fr;
 }
 
-header {
+#header {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -138,11 +141,10 @@ header {
     background: var(--text);
     height: 1em;
     width: 1em;
-    mask-image: url(../images/favicon.webp);
+    mask-image: url(../media/favicon.webp);
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;
-
 }
 
 #theme-toggle {
@@ -175,7 +177,7 @@ header {
 }
 
 
-main {
+#main {
     display: grid;
     grid-template-columns: auto 1fr;
     width: 100%;
@@ -184,7 +186,7 @@ main {
 }
 
 .sidebar,
-#folders {
+#repos {
     padding: 1rem;
 }
 
@@ -201,13 +203,26 @@ main {
     direction: ltr;
 }
 
-.filter-section ul {
+.filter-section h3 + * {
     list-style: none;
     padding-left: .5rem;
     border-left: 2px solid var(--primary);
 }
 
-.filter-section input {
+.filter-section-time input,
+.filter-section-time select {
+    background: none;
+    border-bottom: 2px solid var(--border);
+    text-align: center;
+    line-height: 1em;
+}
+
+.filter-section-time input {
+    outline: none;
+    width: 2.5rem;
+}
+
+.filter-section input[type="checkbox"] {
     height: 1em;
     width: 1em;
 }
@@ -218,12 +233,12 @@ main {
     align-items: center;
 }
 
-.main-content {
+#content {
     width: 100%;
     overflow-y: auto;
 }
 
-#folders {
+#repos {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -245,9 +260,6 @@ main {
     background: var(--bg);
     border-radius: .9rem;
     z-index: 100;
-}
-
-.repo-header.active {
     position: sticky;
     top: 0;
 }
@@ -261,7 +273,7 @@ main {
     background: var(--text);
     height: 1em;
     width: 1em;
-    mask-image: url(../images/github-logo.webp);
+    mask-image: url(../media/github-logo.webp);
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;
@@ -275,32 +287,32 @@ main {
     text-wrap: balance;
 }
 
-.repo-title span {
+.repo-title:not(span) {
     color: var(--secondary);
 }
 
-.categories-container {
+.repo-categories {
     display: none;
     flex-direction: column;
     gap: 1rem;
     padding: .1rem 1.9rem 1.4rem 1.9rem;
 }
 
-.categories-container.active {
+.repo-container.active .repo-categories {
     display: flex;
 }
 
-.folder-container {
+.category-container {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.folder-heading {
+.category-name {
     text-decoration: underline .2rem var(--secondary);
 }
 
-.buttons {
+.components {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
