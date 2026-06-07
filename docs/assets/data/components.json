@@ -574,13 +574,18 @@
     "owner": "frontend-joe",
     "branch": "main",
     "url": "https://github.com/frontend-joe/js-components",
-    "sha": "bfa7b65dbb217f68d14acf23ebaad9385f00af4b",
+    "sha": "e32321ae623189ac4e559fce9677b173f63f0c0c",
     "components": {
       "banners": [
         {
           "name": "banner-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/banners/banner-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/banners/banner-1"
+        },
+        {
+          "name": "banner-2",
+          "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/banners/banner-2/index.html",
+          "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/banners/banner-2"
         }
       ],
       "carousels": [
@@ -700,6 +705,11 @@
           "name": "sidebar-3",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-3/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-3"
+        },
+        {
+          "name": "sidebar-4",
+          "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-4/index.html",
+          "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-4"
         },
         {
           "name": "sidebar-5",
