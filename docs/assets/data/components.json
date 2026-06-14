@@ -4,7 +4,7 @@
     "owner": "frontend-joe",
     "branch": "main",
     "url": "https://github.com/frontend-joe/css-components",
-    "sha": "e2d5d981c26c454b473121b7803f90e59a4eede2",
+    "sha": "743c6c0f876e835c0eedf775cc56ba118841f940",
     "components": {
       "accordions": [
         {
@@ -23,6 +23,11 @@
           "name": "card-10",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-10/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-10"
+        },
+        {
+          "name": "card-11",
+          "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/cards/card-11/index.html",
+          "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/cards/card-11"
         },
         {
           "name": "card-2",
