@@ -14,36 +14,33 @@
 </head>
 
 <body>
-	<header id="header">
-		<div class="website-title">
-			<div class="favicon"></div>
-			<h1>Web Components Navigator</h1>
-		</div>
+	<header id="page-header">
+		<h1><span class="favicon"></span>Web Components Navigator</h1>
 		<button id="theme-toggle" aria-label="Toggle light/dark mode">
 			<img id="theme-icon" src="assets/media/sun-moon.svg" alt="">
 		</button>
 	</header>
-	<main id="main">
-		<aside class="sidebar">
-			<div class="filters-sidebar card">
-				<section class="filter-section hidden">
-					<h2>Owners</h2>
-					<ul id="filter-list-owner">
-					</ul>
-				</section>
-				<section class="filter-section">
-					<h2>Categories</h2>
-					<ul id="filter-list-category">
-					</ul>
-				</section>
-			</div>
-		</aside>
+	<aside id="page-sidebar">
+		<div class="filters-sidebar container">
+			<section class="filter-section hidden">
+				<h2>Owners</h2>
+				<ul id="filter-list-owner">
+				</ul>
+			</section>
+			<section class="filter-section">
+				<h2>Categories</h2>
+				<ul id="filter-list-category">
+				</ul>
+			</section>
+		</div>
+	</aside>
+	<main>
 		<div id="content">
 			<div id="repos"></div>
 		</div>
 	</main>
 	<template id="template--repo">
-		<div class="card repo-container">
+		<div class="container repo-container">
 			<header class="repo-header">
 				<a href="#" class="repo-link" target="_blank"></a>
 				<h2 class="repo-title">
