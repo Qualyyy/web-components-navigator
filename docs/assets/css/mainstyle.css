@@ -93,10 +93,13 @@ small {
     padding: 1rem;
     border-radius: 1rem;
     border: 1px solid var(--border);
+    overflow-y: auto;
 }
 
 body {
     min-height: 100dvh;
+    height: 100dvh;
+    overflow: hidden;
     background: var(--bg-dark);
     color: var(--text);
     display: grid;
@@ -105,6 +108,8 @@ body {
 
     > * {
         padding: 1rem;
+        overflow-y: hidden;
+        height: auto;
     }
 }
 
@@ -128,5 +133,12 @@ body {
             height: 1em;
             aspect-ratio: 1;
         }
+    }
+}
+
+#page-sidebar {
+    .container {
+        overflow: auto;
+        height: 100%;
     }
 }
