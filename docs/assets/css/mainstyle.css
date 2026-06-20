@@ -105,9 +105,11 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr;
+    padding-block: 1rem;
+    row-gap: 1rem;
 
     > * {
-        padding: 1rem;
+        padding-inline: 1rem;
         overflow-y: hidden;
         height: auto;
     }
@@ -140,5 +142,72 @@ body {
     .container {
         overflow: auto;
         height: 100%;
+    }
+}
+
+main {
+    overflow-y: auto;
+
+    #repos {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            .repo-categories {
+                display: none;
+                overflow: auto;
+                flex-direction: column;
+                padding-inline: .5rem;
+            }
+        }
+
+        .container.active .repo-categories {
+            display: flex;
+        }
+    }
+}
+
+.category-container {
+    .components {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        .component-button {
+            position: relative;
+            color: var(--bg);
+
+            .btn-source-code {
+                background: var(--secondary);
+                position: absolute;
+                font-size: .5rem;
+                font-weight: bold;
+
+            }
+
+            .btn-preview {
+                background: var(--primary);
+                padding: .5rem 1rem;
+                display: block;
+            }
+
+        }
+    }
+}
+
+#repos:has(.active) {
+    height: 100%;
+
+    .container.active {
+        overflow: auto;
+    }
+
+    .container:not(.active) {
+        display: none;
     }
 }
