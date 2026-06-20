@@ -84,6 +84,17 @@ small {
     font: var(--small);
 }
 
+.hidden {
+    display: none !important;
+}
+
+.container {
+    background: var(--bg);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--border);
+}
+
 body {
     min-height: 100dvh;
     background: var(--bg-dark);
@@ -91,13 +102,16 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr;
+
+    > * {
+        padding: 1rem;
+    }
 }
 
 #page-header {
     grid-column: 1/-1;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
 
     h1 {
         display: flex;
