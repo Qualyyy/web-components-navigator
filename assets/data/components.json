@@ -579,7 +579,7 @@
     "owner": "frontend-joe",
     "branch": "main",
     "url": "https://github.com/frontend-joe/js-components",
-    "sha": "e32321ae623189ac4e559fce9677b173f63f0c0c",
+    "sha": "b330d83eca88f01551b7058891c0308ec7386f96",
     "components": {
       "banners": [
         {
@@ -700,6 +700,11 @@
           "name": "sidebar-1",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-1/index.html",
           "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-1"
+        },
+        {
+          "name": "sidebar-10",
+          "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/js-components/main/sidebars/sidebar-10/index.html",
+          "sourceUrl": "https://github.com/frontend-joe/js-components/tree/main/sidebars/sidebar-10"
         },
         {
           "name": "sidebar-2",
