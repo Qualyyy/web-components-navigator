@@ -3,7 +3,7 @@ import * as RENDERER from "./renderer.js";
 import "./theme.js";
 
 function init() {
-    document.querySelector("#content").addEventListener("click", toggleRepo);
+    document.querySelector("#repos").addEventListener("click", toggleRepo);
 
     fetchAllRepos();
 }

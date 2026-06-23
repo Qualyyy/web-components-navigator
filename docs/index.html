@@ -4,69 +4,50 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/mainstyle.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/media-queries.css">
-	<script defer src="assets/js/index.js" type="module"></script>
+	<script src="assets/js/index.js" type="module"></script>
 	<link rel="shortcut icon" href="assets/media/favicon-filled.webp" type="image/x-icon">
 	<title>Web Components Navigator</title>
 </head>
 
 <body>
-	<header id="header">
-		<div class="website-title">
-			<div class="favicon"></div>
-			<h1>Web Components Navigator</h1>
-		</div>
+	<header id="page-header">
+		<h1><span class="favicon"></span>Web Components Navigator</h1>
 		<button id="theme-toggle" aria-label="Toggle light/dark mode">
 			<img id="theme-icon" src="assets/media/sun-moon.svg" alt="">
 		</button>
 	</header>
-	<main id="main">
-		<aside class="sidebar">
-			<div class="filters-sidebar card">
-				<section class="filter-section filter-section-time" style="display: none;">
-					<h3>Time</h3>
-					<div>
-						<small>Added</small>
-						<input type="number" name="time-amount" id="time-amount" placeholder="0" min="0" max="99">
-						<select name="time-stamp" id="time-stamp">
-							<option value="days">days</option>
-							<option value="weeks">weeks</option>
-							<option value="months">months</option>
-							<option value="years">years</option>
-						</select>
-						<small>ago</small>
-					</div>
-				</section>
-				<section class="filter-section" style="display: none;"> <!-- Currently only 1 owner -->
-					<h3>Owners</h3>
-					<ul id="filter-list-owner">
-					</ul>
-				</section>
-				<section class="filter-section">
-					<h3>Categories</h3>
-					<ul id="filter-list-category">
-					</ul>
-				</section>
-			</div>
-		</aside>
-		<div id="content">
-			<div id="repos"></div>
+	<aside id="page-sidebar">
+		<div class="filters-sidebar container">
+			<section class="filter-section hidden">
+				<h2>Owners</h2>
+				<ul id="filter-list-owner">
+				</ul>
+			</section>
+			<section class="filter-section">
+				<h2>Categories</h2>
+				<ul id="filter-list-category">
+				</ul>
+			</section>
 		</div>
+	</aside>
+	<main>
+		<div id="repos"></div>
 	</main>
 	<template id="template--repo">
-		<div class="card repo-container">
+		<div class="container repo-container">
 			<header class="repo-header">
 				<a href="#" class="repo-link" target="_blank"></a>
 				<h2 class="repo-title">
 					<span class="repo-name">-</span>
-					by
+					<i>by</i>
 					<span class="repo-owner">-</span>
 				</h2>
 			</header>
-			<main class="repo-categories">Loading...</main>
+			<div class="repo-categories">Loading...</div>
 		</div>
 	</template>
 	<template id="template--category">
