@@ -171,6 +171,11 @@ body {
         height: 100%;
         padding: 1rem;
 
+        ul {
+            border-left: 2px solid var(--primary);
+            padding-left: .5rem;
+        }
+
         label {
             display: flex;
             gap: .25rem;
@@ -191,6 +196,8 @@ main {
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        width: min(90%, 50rem);
+        margin-inline: auto;
 
         .container {
             display: flex;
@@ -201,12 +208,14 @@ main {
                 align-items: center;
                 gap: .25rem;
                 padding: 1rem;
+                text-wrap: balance;
 
                 .repo-link {
                     font: var(--h2);
                     background: var(--text);
                     height: 1em;
                     width: 1em;
+                    min-width: 1em;
                     mask-image: url(../media/github-logo.webp);
                     mask-size: contain;
                     mask-repeat: no-repeat;
