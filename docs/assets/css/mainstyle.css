@@ -141,6 +141,18 @@ body {
     .container {
         overflow: auto;
         height: 100%;
+        padding: 1rem;
+
+        label {
+            display: flex;
+            gap: .25rem;
+            align-items: center;
+
+            input {
+                height: 1rem;
+                aspect-ratio: 1;
+            }
+        }
     }
 }
 
