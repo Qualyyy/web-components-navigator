@@ -206,10 +206,15 @@ main {
             }
         }
 
-        .container.active .repo-categories {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
+        .container.active {
+            max-height: max(75dvh, 25rem);
+
+            .repo-categories {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                overflow: auto;
+            }
         }
     }
 }
@@ -262,16 +267,4 @@ main {
         }
     }
 
-}
-
-#repos:has(.active) {
-    height: 100%;
-
-    .container.active {
-        overflow: auto;
-    }
-
-    .container:not(.active) {
-        display: none;
-    }
 }
