@@ -104,20 +104,48 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr;
-    padding-block: 1rem;
-    row-gap: 1rem;
+    padding: .5rem;
 
     > * {
-        padding-inline: 1rem;
+        padding: .5rem;
         overflow-y: hidden;
         height: auto;
     }
 }
 
+#theme-toggle {
+    height: 2rem;
+    width: 3.5rem;
+    padding: .2rem;
+    border-radius: 1rem;
+    background: var(--bg);
+    border: var(--border-card);
+    box-shadow: var(--shadow);
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    #theme-icon {
+        display: block;
+        background: var(--bg-light);
+        border-radius: 50%;
+        aspect-ratio: 1 / 1;
+        height: 100%;
+        padding: .1rem;
+    }
+}
+
+:root.dark #theme-icon {
+    float: right !important;
+}
+
+
 #page-header {
     grid-column: 1/-1;
     display: flex;
     justify-content: space-between;
+    padding: .5rem;
 
     h1 {
         display: flex;
