@@ -168,36 +168,52 @@ main {
 
         .container.active .repo-categories {
             display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            h3 {
+                text-decoration: .2rem underline var(--secondary);
+            }
         }
     }
 }
 
 .category-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
     .components {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
-
-        .component-button {
-            position: relative;
-            color: var(--bg);
-
-            .btn-source-code {
-                background: var(--secondary);
-                position: absolute;
-                font-size: .5rem;
-                font-weight: bold;
-
-            }
-
-            .btn-preview {
-                background: var(--primary);
-                padding: .5rem 1rem;
-                display: block;
-            }
-
-        }
     }
+}
+
+.component-button {
+    position: relative;
+    color: var(--bg);
+
+    .btn-source-code {
+        background: var(--secondary);
+        position: absolute;
+        font-size: .5rem;
+        aspect-ratio: 1;
+        font-weight: bold;
+        padding: .2rem;
+        border-radius: 50%;
+        top: -.5rem;
+        left: -.5rem;
+        border: .125rem solid var(--bg);
+    }
+
+    .btn-preview {
+        background: var(--primary);
+        padding: .5rem 1rem;
+        display: block;
+        border-radius: 0 .5rem .5rem .5rem;
+    }
+
 }
 
 #repos:has(.active) {
