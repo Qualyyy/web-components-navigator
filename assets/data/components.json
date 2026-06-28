@@ -4,7 +4,7 @@
     "owner": "frontend-joe",
     "branch": "main",
     "url": "https://github.com/frontend-joe/css-components",
-    "sha": "743c6c0f876e835c0eedf775cc56ba118841f940",
+    "sha": "6502d39b43cb6b66c90512705af9c1aa7170d798",
     "components": {
       "accordions": [
         {
@@ -282,6 +282,11 @@
           "name": "navbar-7",
           "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/navbars/navbar-7/index.html",
           "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/navbars/navbar-7"
+        },
+        {
+          "name": "navbar-8",
+          "previewUrl": "https://component-proxy.qualyj.workers.dev/frontend-joe/css-components/main/navbars/navbar-8/index.html",
+          "sourceUrl": "https://github.com/frontend-joe/css-components/tree/main/navbars/navbar-8"
         }
       ],
       "parallax": [
